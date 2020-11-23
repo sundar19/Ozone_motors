@@ -1,4 +1,7 @@
+The following command is used for assigning IP address to ethernet (In linux PC or Jetson TK1)
+
 sudo ip ad add 10.0.0.20/24 dev eth0
 
-then ping (other computer)
-ICMP protocol
+ping (IP address of other device)
+
+This ensures communication is established between both devices
