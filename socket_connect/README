@@ -1,0 +1,28 @@
+Connect Jetson TK1 and Linux PC using RJ45 cable (Assuming PC to be ixxat CAN to ethernet)
+
+1. Set ethernet IP address for both Jetson and PC 
+
+For Jetson:
+sudo ip ad add 10.0.0.20/24 dev eth0
+
+For PC:
+sudo ip ad add 10.0.0.10/24 dev eno1
+
+2. Check the assigned IP address by using "ifconfig" command in command prompt
+
+We can also ensure by using the command ==> nmap -p 80 10.0.0.20 (IP address of other device)
+which returns the following in case everything is successfully connected
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-11-24 11:54 IST
+Nmap scan report for 10.0.0.20
+Host is up (0.00064s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+
+3. Run socket_server.py in Jetson and socket_client.py in the LINUX PC
+
+The output of the established connection is attached as "screenshots_of_PC & Jetson"
+
