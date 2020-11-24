@@ -31,4 +31,4 @@ IN the PC: Received b'Hello , world'
 
 NOTE: 10.0.0.20 is the IP address of Jetson and 10.0.0.10 is the IP address of PC 
 
-The TCP connection is now established , next is sending and receiving string data using the connection
+The TCP connection is now established
