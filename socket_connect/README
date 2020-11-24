@@ -8,7 +8,7 @@ sudo ip ad add 10.0.0.20/24 dev eth0
 For PC:
 sudo ip ad add 10.0.0.10/24 dev eno1
 
-2. Check the assigned IP address by using "ifconfig" command in command prompt
+2. Check the assigned IP address by using "ifconfig" command in terminal
 
 We can also ensure by using the command ==> nmap -p 80 10.0.0.20 (IP address of other device)
 which returns the following in case everything is successfully connected
