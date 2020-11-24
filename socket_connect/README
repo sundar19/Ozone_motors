@@ -27,5 +27,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
 The output of the established connection is attached as "screenshots_of_PC & Jetson"
 
 IN the Jetson: Connected by ('10.0.0.10',37240)
-IN the PC: 
+IN the PC: Received b'Hello , world'
+
+NOTE: 10.0.0.20 is the IP address of Jetson and 10.0.0.10 is the IP address of PC 
 
