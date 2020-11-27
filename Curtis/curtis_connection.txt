@@ -1,0 +1,19 @@
+Please refer to the diagram 
+
+1.The switch inputs (SWITCH 1 to 16)  are connected to switches which can perform operations such as forward/reverse
+
+2.The analog input (ANALOG 2) can be conected to all sensors such as motor temperature sensor
+
+3.The Throttle connections control the power delivered to the motor which inturn controls the speed of the motor. It also controls the brake based on force excerted on the brake pedal
+
+4.The drivers (DRIVER 1 TO 7) are used in PWM generations which controls motor speed
+
+5. The B+ and B- are taken from battery and U,V,W are taken from the motors (coils)
+
+6.The position feedback returns the position of the motor in the form of square wave or sin/cos wave
+
+7.The CAN termination can be shorted for 120ohms termination resistance
+
+8.The CAN_H and CAN_L can be used for connection and communication with other ECUs and nodes.
+
+9.The serial port tx can be used to display any values from the system and also communication with other devices

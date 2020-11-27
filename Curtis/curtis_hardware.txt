@@ -1,0 +1,42 @@
+The curtis hardware consists of two microprocessors 
+ 1. THe first is for the AC motor control and for processing the vehicle control language (VCL)
+ 2. The second processor for monitoring purposes such as timing and operation
+ 
+ This AC motor controller works using vehicle control language or VCL
+ 
+ HIGH POWER CONNECTIONS:
+ 1. B+ ==> Battery positive to controller
+ 2. B- ==> Battery negative to controller
+ 3. U
+ 4. V
+ 5. W
+ 
+ Where 3,4,5 are the 3 phases of AC current
+ 
+ LOW POWER CONNECTION:
+ The low power connection consists of 35-pin AMPSEAL connector its specifications include
+
+• Digital Inputs
+• Digital and PWM Outputs
+• Analog Inputs
+• Analog Output
+• Power Supply Outputs
+• KSI and Coil Return Inputs
+• Throttle and Brake Inputs
+• Communications Ports I/O
+• Position Feedback Inputs
+
+KSI & coil return:
+Provides power for all low power control circuits
+
+Throttle & break i/ps:
+Used to control throttle (power delivered to the AC motor)
+
+Position feedback i/ps:(Quadrature Encoder)
+Returns the position of the motor ( In the angle which the motor lies) as a square wave in quadrature form
+
+
+Position feedback i/ps:(Sin/Cos sensor):
+Returns the position of the motor in a sine or a cosine waveform 
+
+The communication ports consists of CAN,UART etc.,

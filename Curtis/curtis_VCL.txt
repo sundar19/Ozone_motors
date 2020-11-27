@@ -1,0 +1,178 @@
+The Curtis VCL (vehicle control language) can be used by downloading WinVCL software
+
+Summary of VCL Basics
+	• VCL is not case-sensitive:
+	put_pwm(), Put_PWM(), and PUT_PWM() are identical.
+	• Spaces in variable names are not allowed in VCL; use underscores in place of spaces.
+	Example: Forward_Offset is the VCL name for the 1313/1314 parameter
+	Forward Offset.
+	• Functions are followed by parentheses; for example:
+	Reset_Controller() is a function
+	Reset_Voltage is a variable.
+	• Logical statements must be inside parentheses; examples:
+	IF (setpoint >50)
+	ELSE IF ((setpoint <20) & (temperature >100)).
+	• Comments are preceded by semicolons. 
+	
+I/O CONTROL WITH VCL:
+
+DIGITAL INPUTS:
+
+The inputs sw_1 to sw_8 and sw_16 are for switches and sw_9 to sw_15 are general digital input pins for sensing logical conditions 
+
+The example code for sensing a switch state is 
+
+	if (Sw_1 = ON)
+	{
+	;put code here to run when switch 1 is On
+	}
+	if (Sw_16 = OFF)
+	{
+	;put code here to run when switch 16 is Off
+	}
+
+All the digital pins are automatically debounced by the VCL 
+-
+DRIVER AND DIGITAL OUTPUTS:
+
+There are five driver outputs (PWM1 to PWM5) and two digital outputs(DigOut6 and DigOut7) 
+
+Drivers use a special VCL function to set their PWM level. This PWM level can be set up in a signal chain to update automatically or can be set directly in the main loop. PWM can be set from 0–100% using the digital range of 0 to 32767.
+
+	Put_PWM(PWM2,16384) 
+
+will output a 50% waveform on Driver 2.
+
+	Automate_PWM(PWM2,@user1)
+
+will continually update the Driver 2 output with the present value of variable User1. This automate statement needs only to be run once, usually in the initialization section of the VCL program. VCL can monitor the present value of a PWM driver: the variable PWMx_Output (where “x” is the PWM channel number) is automatically filled with the present value of the driver output.
+
+Control of the two digital outputs (Digital Outputs 6 and 7) is done using the VCL functions Set_Digout() and Clear_Digout().
+
+	Set_DigOut(DigOut6)
+
+will set Digital Output 6 On (active). VCL can monitor the present value of a digital output driver:the bit variable Digx_Output (where “x” is the digital output channel number) is automatically filled with the present value of the driver output (On or Off ).
+
+
+POTENTIOMETER INPUTS:
+The potentiometer inputs are used for throttle and breaks. 
+
+The throttle menu and brake menu as follows
+
+PARAMETER                       ALLOWABLE RANGE                    DESCRIPTION
+
+Throttle Type                   1 – 5                           1. 2-wire rheostat, 5 kΩ–0 input
+                                        			  2. single-ended 3-wire 1 kΩ–10 kΩ potentiometer, or 0–5 V voltage source
+                                        			  3. 2-wire rheostat, 0–5 kΩ input
+								  4. wigwag 3-wire 1 kΩ–10 kΩ potentiometer, or 0–5 V voltage source
+								  5. VCL input (VCL_Throttle)
+								  
+Brake Type                      1 - 5                           1. 2-wire rheostat, 5 kΩ–0 input
+                                        			  2. single-ended 3-wire 1 kΩ–10 kΩ potentiometer, or 0–5 V voltage source
+                                        			  3. 2-wire rheostat, 0–5 kΩ input
+								  4. wigwag 3-wire 1 kΩ–10 kΩ potentiometer, or 0–5 V voltage source
+								  5. VCL input (VCL_Throttle)  
+								  
+Thus when VCL has to control the parameter throttle type or brake type must be assigned the value 5 in the menu 
+Using the Setup_Pot() function, executed at the beginning of a VCL program, will define the potentiometer input connection(s) as 
+THREE_WIRE potentiometer connections are the same as the 3-wire potentiometer connections for Throttle Type 2.(Refer diagram)
+TWO_WIRE potentiometer connections are the same as the 2-wire potentiometer connections for Throttle Type 1.(Refer diagram)
+ONE_WIRE potentiometer connections are the same as the Voltage Source or Current Source connections for Throttle Type 2.
+for setting up throttle pot
+
+	Setup_Pot(THROTTLE_POT,THREE_WIRE)
+
+will set up the throttle pot input for wiring using all three connections (pins 15, 16, 18).
+
+To set up the brake pot input for use in VCL, use the Brake_Pot constant in place of the Thottle_Pot constant in the Setup_Pot function.
+
+	Setup_Pot(BRAKE_POT,TWO_WIRE)
+	
+will set up the brake pot input for wiring using two connections (pins 17, 18).
+The 0–100% position of the potentiometer is represented by a value from 0–32767 in VCL
+
+Another effect of setting the Throttle Type = 5 is that the signal chain for the throttle now gets its input from a different source. The input to the throttle chain is now a VCL variable called VCL_Throttle instead of the throttle pot. Similarly, Brake Type = 5 means the brake signal chain will get its input from a VCL variable called VCL_Brake rather than from the brake pot. The VCL_Throttle and VCL_Brake variables will need to be controlled in the VCL program.
+
+setup_pot_faults() detects all errors within pot
+
+ANALOG INPUTS:
+Analog1_Input and Analog2_Input (pins 24 & 8) are the variables into which VCL places the analog values
+
+	User2 = Analog2_Input
+	
+will fill the User2 RAM variable with the value of the voltage at pin 8.
+
+The filtered values of the analog inputs are also available and are automatically placed in VCL variables Analog1_Filtered and 
+Analog2_Filtered
+
+ANALOG OUTPUT:
+The analog output (Pin 30) consists of the switching stage is filtered to provide a smooth average voltage, instead of the actual PWM waveform seen on Drivers 1–5. However, AnalogOut uses the same VCL functions Put_PWM() and Automate_PWM() used by these other drivers.
+
+	Put_PWM(PWM6,6553)
+	
+will generate 2.0 volts at the analog output. VCL can monitor this output using the variable Analog_Output.
+
+USING THE FAULT HANDLER IN VCL:
+The controller’s operating system detects various faults and takes appropri-ate fault actions to protect the controller.The fault text is displayed in the System Faults and Fault History menus of the 1313 handheld and 1314 PC programmers.Additionally, the operating system makes the status of the operating system faults available for use in VCL programs in the form of nine variables called Status1-9. Each of these 16-bit variables contains the status of 8 faults in the lower byte (the upper byte is always set to 0). These Status1–9 variables are read only (RO) and can be used in a VCL program to trigger additional fault actions such as sending fault text messages to a display
+or blinking a dashboard LED.
+(status can be referred in the datasheet)
+
+CANBUS EMERGENCY MESSAGES:
+The Status1–9 faults form CAN emergency message using little-endian byte ordering
+Byte1&2 ==> Error Category
+Byte3 ==> error register (set 1 for fault)
+Bytes 4–8 map into the Status 1–9 faults as per the error category.
+
+OEM-DEFINED USER FAULTS:
+The operating system provides the capability to create OEM-defined custom faults using VCL. Just as with system faults, the VCL fault codes are flashed on the controller Status LEDs and fault text is displayed on the System Faults and Fault History menus of the 1313/1314 programmer. Optionally, the VCL can assign fault actions to occur automatically when the associated fault is set. Sixteen VCL faults are available, stored in the VCL variables UserFault1 and UserFault2.
+
+Setting the fault in VCL is done by setting the associated fault bit in the UserFault1 and 2 variables.
+
+	if (BDI-Percentage < 10)
+	{
+	UserFault1.2 = ON ;		
+	}
+	else
+	{
+	UserFault1.2 = OFF ;
+	}
+
+This VCL will check to see if the Battery Discharge Indicator is less than 10%. If it is, UserFault1 Bit1 is set. If the BDI is not less than 10%, the fault is cleared.
+
+To add automatic fault actions to the VCL faults, the VCL programmer must define the desired fault actions by using the sixteen VCL variables: User_Fault_Action_01 through User_Fault_Action_16.
+
+Bit0 = ShutdownMotor Disable the motor.
+Bit1 = ShutdownMainContactor Shut down the main contactor (only if Main Enable = On)
+Bit2 = ShutdownEMBrake Shut down the EM brake (only if EM Brake Disable Upon Fault = On).
+Bit3 = ShutdownThrottle Set the Throttle_Command = 0%.
+Bit4 = ShutdownInterlock Set the Interlock_State = Off.
+Bit5 = ShutdownDriverl Shut down Driver1.
+Bit6 = ShutdownDriver2 Shut down Driver2.
+Bit7 = ShutdownDriver3 Shut down Driver3.
+Bit8 = ShutdownDriver4 Shut down Driver4.
+Bit9 = ShutdownPD Shut down Proportional Driver
+Bit10 = FullBrake Set the Brake_Command = 100%.
+Bit11 = [reserved] N/A
+Bit12 = TrimDisable Disable Dual Drive trim calculation.
+Bit13 = SevereDual For Dual Drive system, one controller has a severe fault but the main contactor must stay closed so the other controller can continue to operate.
+Bit14 = ShutdownSteer Steer angle = 0°.
+Bit15 = LOSDual For Dual Drive system, set the max speed to Dual_LOS_Max_Speed parameter for operation in Limited Operating Strategy.
+
+Example:
+	User_Fault_Action_02 = 24 ;Set fault action to ShutdownInterlock and ShutdownThrottle
+	MainLoop:
+	if (BDI_Percentage < 10)
+	{
+	UserFault1.2 = ON ;		
+	Set User Fault bit
+	Put_Spy_Text(“BDI Low”) ; Send message to Model 840 display
+	}
+	else
+	{
+	UserFault1.2 = OFF ;
+	Clear User Fault bit
+	}
+	goto MainLoop
+	
+This time when UserFault1.2 is set, the operating system will ShutdownInterlock and ShutdownThrottle.n this example the Put_Spy_Text(“BDI Low”) will result in the message “BDI Low” appearing on the model 840 display
+
