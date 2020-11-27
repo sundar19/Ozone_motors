@@ -1,9 +1,0 @@
- This command is used to scan devices are whether present or not via ethernet
- nmap -p 80 10.0.0.10
-
-OUTPUT:
-Starting Nmap 6.40 ( http://nmap.org ) at 2020-11-23 07:42 IST
-Nmap scan report for 10.0.0.10
-Host is up (0.00083s latency).
-PORT   STATE  SERVICE
-80/tcp closed http
