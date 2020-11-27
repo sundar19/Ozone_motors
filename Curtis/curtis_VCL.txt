@@ -176,3 +176,185 @@ Example:
 	
 This time when UserFault1.2 is set, the operating system will ShutdownInterlock and ShutdownThrottle.n this example the Put_Spy_Text(“BDI Low”) will result in the message “BDI Low” appearing on the model 840 display
 
+VCL FUNCTIONS SPECIFIC TO 1232E/SE, 1234E/SE, 1236E/SE AND 1238E/SE CONTROLLERS:
+
+ENABLE_PRECHARGE()
+This function is designed to precharge the capacitor bank before engaging a main contactor thereby preventing current surges and to protect controller internal components and main contactor tips.When the precharge function is enabled, power will be supplied to the capacitor bank until the voltage is within the factory-set range of KSI, or the precharge time limit has expired, or the precharge resistor energy range has been exceeded.
+
+	Enable_Precharge()
+
+	0 – Precharge not enabled.
+	1 – Precharge successfully enabled.
+	
+This will attempt to precharge the capacitor bank.
+
+DISABLE_PRECHARGE()
+This function is designed to abort the precharge function and clear any precharge fault.
+
+	Disable_Precharge()
+	0 – Precharge not enabled.
+	1 – Precharge successfully enabled.
+	
+This will attempt to abort the precharge of the capacitor bank and will clear any precharge fault.
+
+SET_DIGOUT()
+This function turns on the selected digital output
+
+	Set_Digout(DigOut_ID)
+	0 – Selected digital output not set.
+	1 – Selected digital output successfully set.
+	Set_Digout(DigOut6)
+	
+This example will set Digital Output 6 (pin 19) On
+
+CLEAR_DIGOUT()
+This function turns off the selected digital output. The digital outputs are active low
+
+	Clear_Digout(DigOut_ID)
+	0 – Selected digital output not cleared.
+	1 – Selected digital output successfully cleared.
+	Clear_Digout(DigOut6)
+	
+ENABLE_EMER_REV()
+This function is used to engage emergency reverse using VCL.
+
+	Enable_Emer_Rev()
+	0 – Emergency reverse not enabled.
+	1 – Emergency reverse successfully enabled.
+	
+DISABLE_EMER_REV()
+This function is used to disengage emergency reverse using VCL.
+
+	Disable_Emer_Rev()
+	0 – Emergency reverse not disabled.
+	1 – Emergency reverse successfully disabled.
+	
+SET_INTERLOCK()
+This function is used to engage the system interlock using VCL.
+
+	Set_Interlock()
+	0 – Interlock not set.
+	1 – Interlock successfully set.
+	
+CLEAR_INTERLOCK()
+This function is used to disengage the system interlock using VCL
+
+	Clear_Interlock()
+	0 – Interlock not cleared.
+	1 – Interlock successfully cleared.
+	
+SETUP_POT()
+This function determines the type of electrical connection of the Throttle Wiper (J1-16) and Pot2 High (J1-27) potentiometers (pot inputs).
+
+	POT_ID Pot (ID) Selector (THROTTLE_POT,or BRAKE_POT)
+	Type Pot type (ONE_WIRE, TWO_WIRE, or THREE_WIRE)
+	0 Setup not successful
+	1 Setup successful
+
+GET_POT()
+This function returns the value of the selected pot; 0 – 32767 equating to 0 – 100% over the 0 – 5.00 V input range.
+
+	Get_Pot(POT_ID)
+	POT_ID Pot Selector (THROTTLE_POT,or BRAKE_POT)
+	0 Pot = 0 or error.
+	n Pot value.
+	
+SETUP_POT_FAULTS()
+This function re-sets the upper and lower wiper fault voltages for the specified pot-input that will be used to activate a pot-wiper voltage fault. The valid range for the function parameters are 0 – 6.25V (0 – 400 counts)
+
+	Setup_Pot_Faults(Pot_ID, Low_Fault, High_Fault,Fault_Value)
+	Pot_ID ​identifies the throttle whose fault limits are being set:Throttle_Pot,Brake_Pot
+	Low_Fault: Specifies the lower threshold voltage limit.
+	Scaling: 1 V = 64 counts.
+	High_Fault: Specifies the upper threshold voltage limit.
+	Scaling: 1 V = 64 counts.
+	Fault_Value: The value that is used for the pot input when
+	there is a fault (0–32767).
+	
+	0 – Setup did not execute.
+	1 – Setup successful.
+	
+START_PUMP()
+This function is used to turn on the pump lift contactor (pin 4).
+
+	Start_Pump()
+	0 – Pump start function not enabled.
+	1 – Pump start function successfully enabled.
+	
+STOP_PUMP()
+This function is used to turn off the pump lift contactor (pin 4).
+
+	Stop_Pump()
+	0 – Pump stop function not enabled.
+	1 – Pump stop function successfully enabled.
+	
+AUTOMATE_FREQUENCY_OUTPUT()
+This function sets up the PD Driver (pin 2) PWM output to yield a frequency proportional to the input variable at an execution rate of 16 ms. This output can be used to drive an electronic speedometer or tachometer.
+
+	Automate_Frequency_Output()
+	@Source Index of source value to be the input.
+	MinInput Holds the minimum value for the input.
+	MaxInput Holds the maximum value for the input.
+	MinOutput Holds the minimum value for the output in Hz.
+	MaxOutput Holds the maximum value for the output in Hz.
+	
+example: To set up the PD Driver to output 500 Hz to 1500 Hz (at duty cycle = 25%) for motor speed in the range 100 rpm to 4000 rpm:
+	Frequency_Output_Duty_Cycle = 8192 ;set duty cycle = 25% Automate_Frequency_Output(@ABS_Motor_Speed,100,4000,500,1500)
+	
+OVERRIDE_EM_BRAKE_PWM()
+This function is designed to override EM Brake. When this function is enabled, it resets the hill hold memory value.
+
+	Override_EM_Brake_PWM(Kill_Hill_Hold)
+	Kill_Hill_Hold
+	0 – Retain hill hold memory.
+	1 – Reset hill hold memory.
+	
+RESTORE_EM_BRAKE_PWM()
+This function returns control of the EM brake PWM to the EM brake state machine.
+	Restore_EM_Brake_PWM()
+	0 – Failed
+	1 – Success.
+	
+MAP_TWO_POINTS()
+This function interpolates values between two points, Y1 and Y2; based upon an X input parameter. Interpolating based on X1 and X2.
+
+	Map_Two_Points(X,X1,X2,Y1,Y2)
+	X Input.
+	X1 Input point X1.
+	X2 Input point X2.
+	Y1 Output point Y1.
+	Y2 Output point Y2.
+	return n output value
+	
+Example:
+Convert a controller value, such as Steer_Angle, to a voltage.
+The input (X) is the Steer_Angle variable, where X1-X2 is an
+angle between 0 and 90 Degrees. The output is the interpolated
+value across Y-axis points in Volts.
+Enable the expansion of the Setup_Map(16) function beyond the
+seven (7) point-pair by the use of multiple If, If Else statements
+on segments of a two point XY array. For Example:
+	If(X < 1)
+	{
+	Y = Map_2_Points(X, X1, X2, Y1, Y2)
+	}
+	Else If(0<= X <= 1)
+	{
+	Y = Map_two_Points(X, X1, X2, Y1, Y2)
+	}
+	Else If(1< X <= 2)
+	{
+	Y = Map_Two_Points(X, X1, X2, Y1, Y2)
+	}
+	Else If(2< X <= 3)
+	{
+	Y = Map_Two_Points(X, X1, X2, Y1, Y2)
+	}
+	Etc.
+	
+BATTERY_COMPENSATE()
+This function is used to compensate a variable with battery voltage using the nominal battery setting.
+	Battery_Compensate(Input)
+	Input Variable to be compensated.
+	n Output.
+
