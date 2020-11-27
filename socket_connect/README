@@ -22,6 +22,8 @@ PORT   STATE  SERVICE
 
 Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
 
+ping (IP address of other device)
+
 3. Run socket_server.py in Jetson and socket_client.py in the LINUX PC
 
 The output of the established connection is attached as "screenshots_of_PC & Jetson"
