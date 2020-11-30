@@ -1,0 +1,29 @@
+The program (TCPEchoClient) of the controller (chipkit network shield) works as follows
+
+#include <IM8720PHY.h> ==> library utilized for the ethernet 
+
+#include <DEIPcK.h> ( the Digilent Embedded IP Stack) ==> library utilized for the digilent boards by chipkit for ethernet TCP and UDP
+
+We can specify the IP of the server and the port to bind 
+
+const char * szIPServer = "192.168.1.180"; 
+unsigned short portServer = 44300;
+
+The program consists of 5 stages being stated as swtich case.
+
+1. CONNECT:
+The first step connects the client to the server via deIPcK.tcpConnect(szIPServer, portServer, tcpClient, &status) 
+This ensures the connection is estabalished with server IP address and port. The next step is to write data to the server.
+
+2.WRITE:
+This step mainly writes the values to the server using the function tcpClient.writeStream(rgbWriteStream, cbWriteStream); Where rgbwritestream is the data we want to write in the server and cbwritestream is the sizeof the data. The next step skips to read.
+
+3.READ:
+This state has a conditional operator. This conditional operator checks for the sizeof the data to be read. If the size is within range it proceeds to store the received value in a variable and display it. If not it replaces the size with a bigger size and proceeds to store it in a variable and display it.
+
+4.CLOSE:
+This state closes the TCP connection tcpClient.close();
+
+5.DONE:
+This state ends the switch case. 
+
