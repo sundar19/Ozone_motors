@@ -2,7 +2,7 @@
 #include "mcp_can.h"
 
 const int spiCSPin = 10;
-const int ledPin = 13;
+const int ledPin = 2;
 boolean ledON = 1;
 
 MCP_CAN CAN(spiCSPin);
