@@ -2,7 +2,8 @@ References:
 https://www.raspberrypi.org/forums/viewtopic.php?t=141052 
 https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=141052&start=100
 
-1. Connections
+Connections:-
+
 NOTE:
 First cut the track of the MCP2515 module to give the TJA1050 transceiver 5V seperately through a capacitor(3rd pin of the chip) and 
 3.3V to the Vcc of the module from the Raspberry Pi (MCP2515 CAN controller) 
@@ -25,6 +26,48 @@ Pin 12 <==> SO
 Pin 11 <==> SI
 Pin 10 <==> CS
 
+Software:-
+1.Open the configurations file
+sudo nano /boot/config.txt
+2.Add these lines
+dtparam=spi=on
+dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=12
+dtoverlay=spi-bcm2835-overlay
+
+if dtparam=spi=on is uncommented and existing , please leave it
+3.sudo apt-get install can-utils
+4.sudo reboot
+5.The following should throw similar output
+ls /sys/bus/spi/devices/spi0.0
+driver  modalias  net  of_node  power  statistics  subsystem  uevent
+ls /sys/bus/spi/devices/spi0.0/net
+can0
+ls /sys/bus/spi/devices/spi0.0/net/can0/
+addr_assign_type    dev_id             link_mode         proto_down
+address             dev_port           mtu               queues
+addr_len            dormant            name_assign_type  speed
+broadcast           duplex             netdev_group      statistics
+carrier             flags              operstate         subsystem
+carrier_changes     gro_flush_timeout  phys_port_id      tx_queue_len
+carrier_down_count  ifalias            phys_port_name    type
+carrier_up_count    ifindex            phys_switch_id    uevent
+device              iflink             power
+6.Setup the CAN interface
+sudo ip link set can0 up type can bitrate 500000 
+(NOTE: to down the bus 
+sudo ip link set can0 down )
+7.sudo ifconfig
+
+can0: flags=193<UP,RUNNING,NOARP>  mtu 16
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 10  (UNSPEC)
+        RX packets 1651057  bytes 717672 (700.8 KiB)
+        RX errors 1707  dropped 39  overruns 0  frame 1707
+        TX packets 23  bytes 141 (141.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+8. To send and recieve data we can use Python for RPi and C++ for Arduino (In RPi we can use can-utils for testing)
+1.Run python3 can_basic_send.py in RPi and CAN_RX.ino in Uno
+2.Run python3 can_basic_recv.py in RPi and CAN_TX.ino in Uno
 
 
 
