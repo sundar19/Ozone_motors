@@ -77,5 +77,14 @@ VERY IMPORTANT NOTE:
 Bitrate of RPI & UNO is 500000(set in program)
 Clock frequency of RPI & UNO is 8Mhz(set in config file and program)
 
+can_basic_recv.py OUTPUT:
+Timestamp: 1607220936.314801        ID: 0043    S                DLC:  8    01 02 03 04 05 06 07 08     Channel: can0
+Timestamp: 1607220937.314749        ID: 0043    S                DLC:  8    01 02 03 04 05 06 07 08     Channel: can0
+Timestamp: 1607220937.315004        ID: 0043    S                DLC:  8    01 02 03 04 05 06 07 08     Channel: can0
+Timestamp: 1607220937.315288        ID: 0043    S                DLC:  8    01 02 03 04 05 06 07 08     Channel: can0
+Timestamp: 1607220938.315610        ID: 0043    S                DLC:  8    01 02 03 04 05 06 07 08     Channel: can0
+
+
+
 
 
