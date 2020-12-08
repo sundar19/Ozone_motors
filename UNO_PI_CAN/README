@@ -69,6 +69,9 @@ can0: flags=193<UP,RUNNING,NOARP>  mtu 16
 1.Run python3 can_basic_send.py in RPi and CAN_RX.ino in Uno
 2.Run python3 can_basic_recv.py in RPi and CAN_TX.ino in Uno
 
+VERY IMPORTANT NOTE: 
+Bitrate of RPI & UNO is 500000(set in program)
+Clock frequency of RPI & UNO is 8Mhz(set in config file and program)
 
 
 
