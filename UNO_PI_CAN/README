@@ -27,16 +27,20 @@ Pin 11 <==> SI
 Pin 10 <==> CS
 
 Software:-
+
 1.Open the configurations file
 sudo nano /boot/config.txt
+
 2.Add these lines
 dtparam=spi=on
 dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=12
 dtoverlay=spi-bcm2835-overlay
+(if dtparam=spi=on is uncommented and existing , please leave it)
 
-if dtparam=spi=on is uncommented and existing , please leave it
 3.sudo apt-get install can-utils
+
 4.sudo reboot
+
 5.The following should throw similar output
 ls /sys/bus/spi/devices/spi0.0
 driver  modalias  net  of_node  power  statistics  subsystem  uevent
@@ -52,12 +56,13 @@ carrier_changes     gro_flush_timeout  phys_port_id      tx_queue_len
 carrier_down_count  ifalias            phys_port_name    type
 carrier_up_count    ifindex            phys_switch_id    uevent
 device              iflink             power
+
 6.Setup the CAN interface
 sudo ip link set can0 up type can bitrate 500000 
 (NOTE: to down the bus 
 sudo ip link set can0 down )
-7.sudo ifconfig
 
+7.sudo ifconfig
 can0: flags=193<UP,RUNNING,NOARP>  mtu 16
         unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 10  (UNSPEC)
         RX packets 1651057  bytes 717672 (700.8 KiB)
@@ -68,7 +73,6 @@ can0: flags=193<UP,RUNNING,NOARP>  mtu 16
 8. To send and recieve data we can use Python for RPi and C++ for Arduino (In RPi we can use can-utils for testing)
 1.Run python3 can_basic_send.py in RPi and CAN_RX.ino in Uno
 2.Run python3 can_basic_recv.py in RPi and CAN_TX.ino in Uno
-
 VERY IMPORTANT NOTE: 
 Bitrate of RPI & UNO is 500000(set in program)
 Clock frequency of RPI & UNO is 8Mhz(set in config file and program)
