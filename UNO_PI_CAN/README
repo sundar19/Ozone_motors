@@ -1,1 +1,29 @@
-HI
+Reference = https://www.raspberrypi.org/forums/viewtopic.php?t=141052 , https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=141052&start=100
+
+1. Connections
+NOTE:
+First cut the track of the MCP2515 module to give the TJA1050 transceiver 5V seperately through a capacitor(3rd pin of the chip) and 
+3.3V to the Vcc of the module from the Raspberry Pi (MCP2515 CAN controller) 
+
+RPi to CAN module
+3.3V (Physical Pin 1) <==> Vcc CAN module
+5V (Physical Pin 2) <==> soldered capacitor behind CAN module
+GND (Physical Pin 6) <==> GND CAN module
+CE0 (Physical Pin 24) <==> CS CAN module
+MISO (Physical Pin 21) <==> SO CAN module
+MOSI (Physical Pin 19) <==> SI CAN module
+SCLK (Physical Pin 23) <==> SCK CAN module
+GPIO-BCM-12 (Physical Pin 32) <==> INT CAN module
+
+UNO to CAN module 
+5V <==> Vcc
+GND <==> GND
+Pin 13 <==> SCK
+Pin 12 <==> SO
+Pin 11 <==> SI
+Pin 10 <==> CS
+
+
+
+
+
