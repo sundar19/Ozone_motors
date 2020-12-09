@@ -71,6 +71,11 @@ can0: flags=193<UP,RUNNING,NOARP>  mtu 16
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 8. To send and recieve data we can use Python for RPi and C++ for Arduino (In RPi we can use can-utils for testing)
+
+LIBRARIES:
+Arduino C++ CAN  : https://github.com/Seeed-Studio/CAN_BUS_Shield
+Raspberry Pi Python CAN : pip3 install python-can
+
 1.Run python3 can_basic_send.py in RPi and CAN_RX.ino in Uno
 2.Run python3 can_basic_recv.py in RPi and CAN_TX.ino in Uno
 VERY IMPORTANT NOTE: 
