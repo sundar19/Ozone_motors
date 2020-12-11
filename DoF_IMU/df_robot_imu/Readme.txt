@@ -1,6 +1,6 @@
 References: https://www.dfrobot.com/product-880.html
 
-
+Serial Monitor output:
 Initializing I2C devices...
 Testing device connections...
 MPU6050 connection successful
