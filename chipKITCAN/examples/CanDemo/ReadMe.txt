@@ -1,3 +1,9 @@
+Note : The CDM v2.12.28 WHQL Certified file consists of driver files for Chipkit Max32 . 
+Go to link https://www.ftdichip.com/Drivers/D2XX.htm to download the drivers (Windows Version 2.12.28) 
+For driver installation procedures visit https://www.usb-drivers.org/ft232r-usb-uart-driver.html 
+
+
+
 Digilent chipKIT Network Shield CAN Library Release Notes
 Revision date:  08/22/11
 
