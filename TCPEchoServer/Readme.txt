@@ -1,3 +1,5 @@
+To download mpide go to link http://www.chipkit.org/wiki/index.php?title=MPIDE and download 2014-08-21 - 0023 Note that other versions will not work
+
 Assign the Linux computer (Jetson or laptop) as client and chipkit as server
 
 Upload this code to chipkit and assign server position to it 
