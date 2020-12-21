@@ -1,5 +1,11 @@
 To download mpide go to link http://www.chipkit.org/wiki/index.php?title=MPIDE and download 2014-08-21 - 0023 Note that other versions will not work
 
+
+Note : The CDM v2.12.28 WHQL Certified file consists of driver files for Chipkit Max32 . 
+Go to link https://www.ftdichip.com/Drivers/D2XX.htm to download the drivers (Windows Version 2.12.28) 
+For driver installation procedures visit https://www.usb-drivers.org/ft232r-usb-uart-driver.html 
+
+
 Assign the Linux computer (Jetson or laptop) as client and chipkit as server
 
 Upload this code to chipkit and assign server position to it 
