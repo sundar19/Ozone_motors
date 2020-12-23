@@ -14,6 +14,24 @@ For PC/Jetson:(client)
 1.sudo ip ad add 10.0.0.10/24 dev eno1/eth0
 2.Now run python3 socket_client.py 
 
+Serial monitor output:
+
+TCPEchoServer 1.0
+Digilent, Copyright 2011
+
+Started Listening
+Listening on port: 65432
+Got 1 clients pending
+Got a Connection
+Got 14 bytes
+Writing: 
+Hello, Chipkit
+Closing TcpClient
+
+Listening on port: 65432
+
+Python output:
+Recieved b'*Hello Jetson*\n'
 
 
 

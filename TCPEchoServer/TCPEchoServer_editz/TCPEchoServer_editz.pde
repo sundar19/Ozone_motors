@@ -108,6 +108,8 @@ TcpClient tcpClient;
 DNETcK::STATUS status;
 
 byte rgbRead[1024];
+byte customWrite[]= {'*','H','e','l','l','o',' ','J','e','t','s','o','n','*','\n'};
+int customSize = sizeof(customWrite);
 int cbRead = 0;
 int count = 0;
 
@@ -267,7 +269,7 @@ void loop() {
             }
             Serial.println("");  
 
-            tcpClient.writeStream(rgbRead, cbRead);
+            tcpClient.writeStream(customWrite, customSize); //change
             state = READ;
             tStart = (unsigned) millis();
         }
