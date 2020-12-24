@@ -32,6 +32,8 @@ address 10.0.0.10
 
 If that file is read the content says to automatically bring the interface up using static protocols, so it may be this is enough to stop DHCP (it depends on other software and there is a mix of NetworkManager and older style files that don’t always play together nicely).
 
+Also in chipkit comment out timeout portions of the code (TCPEchoServer_oncall)
+
 For testing connection:
 Run TCPEchoServer_editz.pde in chipkit & socket_client.py in Jetson
 
