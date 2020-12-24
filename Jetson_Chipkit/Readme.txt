@@ -32,6 +32,9 @@ address 10.0.0.10
 
 If that file is read the content says to automatically bring the interface up using static protocols, so it may be this is enough to stop DHCP (it depends on other software and there is a mix of NetworkManager and older style files that don’t always play together nicely).
 
+For testing connection:
+Run TCPEchoServer_editz.pde in chipkit & socket_client.py in Jetson
+
 Serial monitor output:
 
 TCPEchoServer 1.0
@@ -48,9 +51,29 @@ Closing TcpClient
 
 Listening on port: 65432
 
-Python output:
+Terminal output:
 Recieved b'*Hello Jetson*\n'
 
+For On request and On call communication:
+Run TCPEchoServer_oncall.pde & socket_client_orq.py 
+
+Serial monitor output:
+Got 1 bytes
+Writing:
+a
+Got 1 bytes
+Writing:
+b
+
+Terminal output:
+Enter 'a' for CURTIS and 'b' for NXP
+a
+Recieving CURTIS data ...
+b'CURTIS'
+Enter 'a' for CURTIS and 'b' for NXP
+b
+Recieving NXP data...
+b'NXP'
 
 
 TCPEchoServer 1.0
