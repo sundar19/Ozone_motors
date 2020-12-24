@@ -112,6 +112,8 @@ byte customWrite[]= {'C','U','R','T','I','S'};
 int customSize = sizeof(customWrite);
 byte dataWrite[]= {'N','X','P'};
 int dataSize = sizeof(dataWrite);
+byte wrongWrite[]= {'W','R','O','N','G'};
+int wrongSize = sizeof(wrongWrite);
 int cbRead = 0;
 int count = 0;
 
@@ -282,6 +284,12 @@ void loop() {
             tcpClient.writeStream(dataWrite, dataSize); //change
             state = READ;
             tStart = (unsigned) millis();
+            }
+            else  
+            {
+             tcpClient.writeStream(wrongWrite, wrongSize);
+             state = READ;
+             tStart = (unsigned) millis();
             }
         }
 
