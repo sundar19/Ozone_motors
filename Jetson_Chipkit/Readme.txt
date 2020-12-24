@@ -14,6 +14,24 @@ For PC/Jetson:(client)
 1.sudo ip ad add 10.0.0.10/24 dev eno1/eth0
 2.Now run python3 socket_client.py 
 
+To assign static IP to Jetson ethernet 
+
+In “/etc/network/” the naming of file “interfaces” would lead you to believe that it automatically works with files in “/etc/network/interfaces.d/”, but it doesn’t. So I manually told it to source the relevant file. Try manually editing “/etc/network/interfaces” to become this with one extra line:
+
+# interfaces(5) file used by ifup(8) and ifdown(8)
+# Include files from /etc/network/interfaces.d:
+source-directory /etc/network/interfaces.d
+
+# This line is a custom edit.
+source interfaces.d/eth0
+Then inside of “/etc/network/interfaces.d/” add file “eth0”. Content something like this (I’m assuming your router is the gateway and that the gateway has address “192.168.1.2”…note that the address you gave of “192.168.150” is missing a digit, I’m assuming it is “192.168.1.150”):
+
+auto eth0
+iface eth0 inet static
+address 10.0.0.10
+
+If that file is read the content says to automatically bring the interface up using static protocols, so it may be this is enough to stop DHCP (it depends on other software and there is a mix of NetworkManager and older style files that don’t always play together nicely).
+
 Serial monitor output:
 
 TCPEchoServer 1.0
