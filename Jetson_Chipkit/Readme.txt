@@ -77,6 +77,9 @@ b
 Recieving NXP data...
 b'NXP'
 
+To get CAN data of chipkit from ethernet of Jetson
+1. Short CAN_Hs and CAN_Ls of both CAN1 and CAN2 of chipkit , connect ethernet cable between Jetson and Chipkit
+2.Run TCP_CAN_merge on chipkit & socket_client_orq.py in Jetson
 
 TCPEchoServer 1.0
 
