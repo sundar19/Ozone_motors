@@ -24,3 +24,4 @@ If in that case initialize CAN everytime when the connnection is cut between chi
 2. The variable pushes dummy data which must be updated. The SDO values are found even if curtis is switched off.
 Variable update is required
 3. The sdo messages should not be got on request. It should be sent as a datastream.
+4.Hex values must be decoded
