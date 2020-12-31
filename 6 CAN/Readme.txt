@@ -3,7 +3,7 @@ Use codewarrior for coding and debugging as well
 
 Troubleshoot in example program:
 1. Change RAM to FLASH
-2. Ensure you add all the driver files (check the sources folder and compare them with existing example project), .lnf file , .rsp file in the sources folder
+2. Ensure you add all the driver files (check the sources folder and compare them with existing example project), .lnf file in the project_settings folder, .rsp file in the sources folder
 
 This file send CAN commands from Arduino to MPC5606B 
 
@@ -14,3 +14,9 @@ CAN_L<==>2nd Pin of DB9 connector
 
 In Arduino serial port enter "1" to switch ON LED 3 in starterTRAK dev board
 In Arduino serial port enter "0" to switch OFF LED 3 in starterTRAK dev board
+
+To send and receive CAN messages from Arduino to MCP5606B
+
+Run nxp_text.ino in Arduino and main.c in startertrak kit and check the values.
+In Arduino serial port enter "1" to receive values from starterTRAK dev board
+In Arduino serial port enter "3" to receive values from starterTRAK dev board
