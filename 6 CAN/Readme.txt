@@ -20,3 +20,7 @@ To send and receive CAN messages from Arduino to MCP5606B
 Run nxp_text.ino in Arduino and main.c in startertrak kit and check the values.
 In Arduino serial port enter "1" to receive values from starterTRAK dev board
 In Arduino serial port enter "3" to receive values from starterTRAK dev board
+
+To send MPU6050 values to MPC5606B 
+Run can_imu_nxp.ino in Arduino and main.c in startertrak kit and check the values.
+can_imu_nxp.txt consists of output values
