@@ -1,0 +1,28 @@
+Sources/sys_init_c.obj: D:\NXP_workspace\multiple_can\Sources\sys_init.c \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\lib_ewl.prefix \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\common.prefix \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\ewl_c_version.h \
+	D:\NXP_workspace\multiple_can\Prefix\MPC5606B_FLASH_VLE.prefix \
+	D:\NXP_workspace\multiple_can\Sources\rappid_ref.h \
+	D:\NXP_workspace\multiple_can\Sources\sys_init.h \
+	D:\NXP_workspace\multiple_can\Sources\intc_init.h \
+	D:\NXP_workspace\multiple_can\Sources\jdp.h \
+	D:\NXP_workspace\multiple_can\Sources\typedefs.h \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\stdint.h \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\ansi_parms.h \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\ewlGlobals.h \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\pa\ansi_prefix.PA_EABI.bare.h \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\os_enum.h \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\cstdint \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\limits_api.h \
+	D:\Freescale\CW\ MCU\ v10.6\MCU\PA_Support\ewl\EWL_C\include\ewl_lib_ext1.h \
+	D:\NXP_workspace\multiple_can\Sources\sysclk_init.h \
+	D:\NXP_workspace\multiple_can\Sources\linflex_init.h \
+	D:\NXP_workspace\multiple_can\Sources\adc_init.h \
+	D:\NXP_workspace\multiple_can\Sources\swt_init.h \
+	D:\NXP_workspace\multiple_can\Sources\flexcan_init.h \
+	D:\NXP_workspace\multiple_can\Sources\dspi_init.h \
+	D:\NXP_workspace\multiple_can\Sources\siu_init.h \
+	D:\NXP_workspace\multiple_can\Sources\pit_init.h \
+	D:\NXP_workspace\multiple_can\Sources\stm_init.h \
+	D:\NXP_workspace\multiple_can\Sources\rtc_init.h 
