@@ -28,4 +28,6 @@ CAN_H<===>CAN_H (Arduino CAN controller)
 CAN_L<===>CAN_L(Arduino CAN controller)
 
 Run multiple_can project in nxp and nxp_text in Arduino and chipkitCAN_NXP in chipkit
+To send sensor values from Arduino to chipkit run can_imu_nxp.ino in Arduino and sensor_can in chipkit
+
 send values from arduino and note it in chipkit

@@ -13,4 +13,5 @@ PC11 <==>RX
 GND <===>GND
 
 Upload  nxp_text.ino in Arduino and debug main.c in MPC5606B  
+For sensor values can_imu_nxp.ino in Arduino and debug main.c in MPC5606B
 check arduino serial monitor for numbers
