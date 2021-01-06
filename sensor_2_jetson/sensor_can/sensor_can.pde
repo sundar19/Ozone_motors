@@ -852,13 +852,13 @@ rxCAN2(void) {
   Serial.print("\t");
          
   dataWrite[0] = byte(message->data[0]);
-  //dataWrite[1]= byte(message->data[1]);
-  //dataWrite[2]= byte(message->data[2]);
-  //dataWrite[3]= byte(message->data[3]);
-  //dataWrite[4]= byte(message->data[4]);
-  //dataWrite[5]= byte(message->data[5]);
-  //dataWrite[6]= byte(message->data[6]);
-  //dataWrite[7]= byte(message->data[7]);
+  dataWrite[1]= byte(message->data[1]);
+  dataWrite[2]= byte(message->data[2]);
+  dataWrite[3]= byte(message->data[3]);
+  dataWrite[4]= byte(message->data[4]);
+  dataWrite[5]= byte(message->data[5]);
+  dataWrite[6]= byte(message->data[6]);
+  dataWrite[7]= byte(message->data[7]);
   
   
 
