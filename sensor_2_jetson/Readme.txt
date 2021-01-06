@@ -27,5 +27,12 @@ RX<===>PC11
 CAN_H<===>CAN_H (Arduino CAN controller)
 CAN_L<===>CAN_L(Arduino CAN controller)
 
-Run multiple_can project in nxp and can_imu_nxp in Arduino and sensor_can in chipkit
-To be resolved , only 0th index value is sent , to send other values as well!
+Sensor <===> Arduino
+Vcc<===>3.3V
+GND<===>GND
+SDA<===>A4
+SCL<===>A5
+
+Connect ethernet cable b/w Jetson and chipkit
+
+Run multiple_can project in nxp and can_imu_nxp in Arduino and sensor_can in chipkit and socket_client_listen.py in jetson
