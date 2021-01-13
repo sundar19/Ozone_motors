@@ -36,3 +36,4 @@ SCL<===>A5
 Connect ethernet cable b/w Jetson and chipkit
 
 Run multiple_can project in nxp and can_imu_nxp in Arduino and sensor_can in chipkit and socket_client_listen.py in jetson
+For using seeeduino_xiao instead of arduino , use GetAllData_test from seeeduino xiao folder
