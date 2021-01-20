@@ -1,8 +1,6 @@
-I2CTOOLS: https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/i2c-tools_3.1.0-2_armhf.deb
-LIBI2C-DEV: https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/libi2c-dev_3.1.0-2_all.deb
-After which use sudo dpkg -i package_name.deb to install the software
-
-Website : https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/i2c-tools_3.1.0-2_armhf.deb.html , https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/libi2c-dev_3.1.0-2_all.deb.html
+Install the following:
+sudo apt-get install build-essential libi2c-dev i2c-tools python-dev libffi-dev
+pip3 install smbus2
 
 PIN outs :
 http://developer.download.nvidia.com/embedded/jetson/TK1/docs/3_HWDesignDev/JTK1_DevKit_Specification.pdf
@@ -33,6 +31,7 @@ To reset all pin capacitive touch state
 sudo i2cset 1 0x29 0x00 0x00 
 
 NOTE : In my Jetson TK1
+
 If sudo apt-get install package_name doesnot work
 
 Use:
@@ -46,4 +45,10 @@ whereis pip3
 
 Know where the pip3 is located , delete it and reinstall pip3 and place it in the same directory.
 
+NOTE:
+In case sudo apt-get install package_name doesnt work:
+I2CTOOLS: https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/i2c-tools_3.1.0-2_armhf.deb
+LIBI2C-DEV: https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/libi2c-dev_3.1.0-2_all.deb
+After which use sudo dpkg -i package_name.deb to install the software
 
+Website : https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/i2c-tools_3.1.0-2_armhf.deb.html , https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/libi2c-dev_3.1.0-2_all.deb.html
