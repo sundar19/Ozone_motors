@@ -25,3 +25,19 @@ sudo i2cdetect -y -r 1
 
 command to check if the module is connected!!
 We are using port 1 i2c
+
+NOTE : In my Jetson TK1
+If sudo apt-get install package_name doesnot work
+
+Use:
+sudo add-apt-repository universe
+sudo apt update
+
+If pip3 doesnot work 
+
+Use: 
+whereis pip3
+
+Know where the pip3 is located , delete it and reinstall pip3 and place it in the same directory.
+
+
