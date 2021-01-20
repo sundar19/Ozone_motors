@@ -43,7 +43,7 @@ If pip3 doesnot work
 Use: 
 whereis pip3
 
-Know where the pip3 is located , delete it and reinstall pip3 and place it in the same directory.
+Find where the pip3 is located , delete it (sudo rm -rf pip3) and reinstall pip3 (sudo apt-get install python3-pip) and place it in the same directory.
 
 NOTE:
 In case sudo apt-get install package_name doesnt work:
