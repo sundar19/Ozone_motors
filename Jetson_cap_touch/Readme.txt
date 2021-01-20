@@ -30,6 +30,8 @@ sudo i2cget 1 0x29 0x03
 To reset all pin capacitive touch state 
 sudo i2cset 1 0x29 0x00 0x00 
 
+Run cap_1188.py and check for the pins being touched!!!
+
 NOTE : In my Jetson TK1
 
 If sudo apt-get install package_name doesnot work
