@@ -26,6 +26,12 @@ sudo i2cdetect -y -r 1
 command to check if the module is connected!!
 We are using port 1 i2c
 
+To Check which pin is touched use
+sudo i2cget 1 0x29 0x03
+
+To reset all pin capacitive touch state 
+sudo i2cset 1 0x29 0x00 0x00 
+
 NOTE : In my Jetson TK1
 If sudo apt-get install package_name doesnot work
 
