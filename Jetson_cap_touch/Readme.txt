@@ -49,8 +49,11 @@ Find where the pip3 is located , delete it (sudo rm -rf pip3) and reinstall pip3
 
 NOTE:
 In case sudo apt-get install package_name doesnt work:
+Use Armhf files
 I2CTOOLS: https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/i2c-tools_3.1.0-2_armhf.deb
 LIBI2C-DEV: https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/libi2c-dev_3.1.0-2_all.deb
 After which use sudo dpkg -i package_name.deb to install the software
+
+Backup files for i2c-tools , libi2c-dev,pip3,smbus2 made available
 
 Website : https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/i2c-tools_3.1.0-2_armhf.deb.html , https://ubuntu.pkgs.org/14.04/ubuntu-universe-armhf/libi2c-dev_3.1.0-2_all.deb.html
