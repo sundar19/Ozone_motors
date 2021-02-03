@@ -1,0 +1,112 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S007 (3866169) [5/30/2020]-[02/03/21]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\design1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (can_module
+      (FullPartName "can_module.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\CAN_MODULE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (AirQ
+      (FullPartName "AirQ.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\AIRQ\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (press_sense
+      (FullPartName "press_sense.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\PRESS_SENSE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (Temp_Humid
+      (FullPartName "Temp_Humid.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\T&H\LIBRARY4.OLB")
+      (DeviceIndex "0"))
+    (BluePill
+      (FullPartName "BluePill.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\BLUEPILL\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (grove_piezo
+      (FullPartName "grove_piezo.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\GROVE_PIEZO\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (MPU6050
+      (FullPartName "MPU6050.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\MPU6050\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (xiao
+      (FullPartName "xiao.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\XIAO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (pga460
+      (FullPartName "pga460.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\PGA460_PSM\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (Arduino_Nano
+      (FullPartName "Arduino_Nano.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\ARDUINO_NANO\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\SPB_Data\libs\AirQ")
+  (MPSSessionName "sundar krishna")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\design1.dsn")
+      (Path "Design Resources" ".\design1.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\design1.dsn" "Design Cache")
+      (Select "Design Resources" ".\design1.dsn" "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 539"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 557")
+        (Scroll "-239 -3")
+        (Zoom "51")
+        (Occurrence "/"))
+      (Path "D:\SPB_DATA\OZONE_ALICE\DESIGN1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 0 0 5 1290 24 557")
+        (Scroll "-239 -3")
+        (Zoom "51")
+        (Occurrence "/"))
+      (Path "D:\SPB_DATA\OZONE_ALICE\DESIGN1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 557")
+        (Scroll "-239 -3")
+        (Zoom "51")
+        (Occurrence "/"))
+      (Path "D:\SPB_DATA\OZONE_ALICE\DESIGN1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))))
