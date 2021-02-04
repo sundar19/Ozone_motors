@@ -1,6 +1,6 @@
 (ExpressProject "Design1"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S007 (3866169) [5/30/2020]-[02/03/21]")
+  (SoftwareVersion "17.4-2019 S007 (3866169) [5/30/2020]-[02/04/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -25,6 +25,44 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    ("OPTO ISOLATOR-A"
+      (FullPartName "OPTO ISOLATOR-A.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BC547
+      (FullPartName "BC547.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("OPTO ISOLATOR"
+      (FullPartName "OPTO ISOLATOR.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (JSM-1A-12V-4
+      (FullPartName "JSM-1A-12V-4.Normal")
+      (LibraryName "D:\SPB_DATA\LIBS\RELAY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("RELAY SPST HE"
+      (FullPartName "RELAY SPST HEA.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("RELAY SPST"
+      (FullPartName "RELAY SPST.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (can_module
       (FullPartName "can_module.Normal")
       (LibraryName "D:\SPB_DATA\LIBS\CAN_MODULE\LIBRARY1.OLB")
@@ -65,15 +103,14 @@
       (FullPartName "Arduino_Nano.Normal")
       (LibraryName "D:\SPB_DATA\LIBS\ARDUINO_NANO\LIBRARY1.OLB")
       (DeviceIndex "0")))
-  (LastUsedLibraryBrowseDirectory "D:\SPB_Data\libs\AirQ")
+  (LastUsedLibraryBrowseDirectory "D:\SPB_Data\libs\Relay")
   (MPSSessionName "sundar krishna")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\design1.dsn")
       (Path "Design Resources" ".\design1.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\design1.dsn" "Design Cache")
-      (Select "Design Resources" ".\design1.dsn" "SCHEMATIC1"))
+      (Path "Design Resources" ".\design1.dsn" "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -83,9 +120,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 557")
-        (Scroll "-239 -3")
-        (Zoom "51")
+        (Placement "44 0 1 -1 -1 5 24 5 1009 24 557")
+        (Scroll "2027 958")
+        (Zoom "120")
         (Occurrence "/"))
       (Path "D:\SPB_DATA\OZONE_ALICE\DESIGN1.DSN")
       (Schematic "SCHEMATIC1")
@@ -93,9 +130,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1290 24 557")
-        (Scroll "-239 -3")
-        (Zoom "51")
+        (Placement "44 0 1 -1 -1 5 24 5 1009 24 557")
+        (Scroll "-76 0")
+        (Zoom "54")
         (Occurrence "/"))
       (Path "D:\SPB_DATA\OZONE_ALICE\DESIGN1.DSN")
       (Schematic "SCHEMATIC1")
@@ -103,9 +140,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 557")
-        (Scroll "-239 -3")
-        (Zoom "51")
+        (Placement "44 0 1 -1 -1 5 24 5 1009 24 557")
+        (Scroll "-76 0")
+        (Zoom "54")
         (Occurrence "/"))
       (Path "D:\SPB_DATA\OZONE_ALICE\DESIGN1.DSN")
       (Schematic "SCHEMATIC1")
