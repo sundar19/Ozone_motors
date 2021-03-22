@@ -3,7 +3,7 @@ mpu6050_xiao_thresh_set has a threshold value set above noise level. Any movemen
 
 For getting a graph do the following,
 1. run the mpu6050_check_plot.ino files to record the values in the serial monitor.
-2.copy those values to a csv file and plot it using line graph , this is helpful for obtaining bumps.
+2.copy those values to a csv file and plot it using line graph , this is helpful for obtaining thresholds. use min and max functions in excel to calculate the threshold for each sensor.
 
-
+we can also use arduino serial plotter.
 Thresholds are set using min and max values in csv files.(data_check & min_max)
