@@ -6,4 +6,4 @@ For getting a graph do the following,
 2.copy those values to a csv file and plot it using line graph , this is helpful for obtaining bumps.
 
 
-Thresholds are set using min and max values in csv files.
+Thresholds are set using min and max values in csv files.(data_check & min_max)
