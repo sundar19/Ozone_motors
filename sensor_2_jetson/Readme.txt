@@ -37,3 +37,5 @@ Connect ethernet cable b/w Jetson and chipkit
 
 Run multiple_can project in nxp and can_imu_nxp in Arduino and sensor_can in chipkit and socket_client_listen.py in jetson
 For using seeeduino_xiao instead of arduino , use xiao_can_imu_nxp from seeeduino xiao folder, use tockn library also.
+
+Run mpu6050_thresh_can to send values from all 4 imus from xiao to Jetson (values are sent only if there is a change in acceleration)
