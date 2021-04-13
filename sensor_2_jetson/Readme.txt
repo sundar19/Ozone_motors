@@ -1,3 +1,4 @@
+NOTE: First switch ON power supply for NXP and then connect the USB else it wont respond
 This folder tells about initializing 2 CAN ports and sending data from arduino to chipkit via nxp (with transceivers) 
 Changes made with 
 main.c
