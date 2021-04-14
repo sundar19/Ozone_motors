@@ -43,4 +43,4 @@ Run mpu6050_thresh_can to send values from all 4 imus from xiao to Jetson (value
 
 UPDATE:
 For multiple 3 CAN ports,
-use 3_can_workspace for NXP , sensor_can for chipkit , AirQ_Press_T_H_can for arduino nano , mpu6050_thresh_can for xiao 
+use 3_can_workspace for NXP , sensor_can for chipkit , AirQ_Press_T_H_can for arduino nano , mpu6050_thresh_can for xiao , socket_client_listen.py for Jetson
