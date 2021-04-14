@@ -40,3 +40,7 @@ Run multiple_can project in nxp and can_imu_nxp in Arduino and sensor_can in chi
 For using seeeduino_xiao instead of arduino , use xiao_can_imu_nxp from seeeduino xiao folder, use tockn library also.
 
 Run mpu6050_thresh_can to send values from all 4 imus from xiao to Jetson (values are sent only if there is a change in acceleration)
+
+UPDATE:
+For multiple 3 CAN ports,
+use 3_can_workspace for NXP , sensor_can for chipkit , AirQ_Press_T_H_can for arduino nano , mpu6050_thresh_can for xiao 
