@@ -72,7 +72,7 @@ void imu1()
  // Serial.print(" || GyroY = "); Serial.print(GyroY);
  // Serial.print(" || GyroZ = "); Serial.println(GyroZ);
   //delay(10);
-  if ((AccZ1 > -15000) || (AccZ1 < -16500))
+  if ((AccZ1 > -15000) || (AccZ1 < -16700))
   {
     push1();
   }
