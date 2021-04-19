@@ -9,6 +9,7 @@ Follow the instructions in the document
 1. to initialize multiple CAN enable all 6 CAN in the enabling step (RAPPID GUI)(Now initialized only 2 CAN)
 2. In  CANdrv.c create function definitions and in CANapi.h declare them as global functions and edit them in main.c
 
+Please donot refer to below connections for 3 can project , updated connections are drawn in Ozone_alice_accel & ozone_alice_sensors
 connections:
 This is CAN_0 of MPC5606B (CAN_0 with Chipkit)
 TJA1050(1) <===> MPC5606B
