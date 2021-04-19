@@ -226,7 +226,6 @@ int push2()
   stmp[3] = Z4;
   CAN.sendMsgBuf(0x01,0,8,stmp);
   Serial.println("push2");
-  delay(500);
 }
 int push3()
 {
