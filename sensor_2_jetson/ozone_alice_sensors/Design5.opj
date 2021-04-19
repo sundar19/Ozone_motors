@@ -1,0 +1,41 @@
+(ExpressProject "Design5"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design5.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (Jetson
+      (FullPartName "Jetson.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "sundar krishna")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\design5.dsn")
+      (Path "Design Resources" ".\design5.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\design5.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 104 1430 104 421")
+        (Scroll "906 1311")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\SPB_DATA(1)\OZONE_ALICE_SENSORS\DESIGN5.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory "D:\SPB_Data(1)\libs\jetson"))
