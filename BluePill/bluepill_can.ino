@@ -24,9 +24,9 @@
 #define bluePillLED PC13
 
 int txMsgID = 0x01;
-uint8_t txData[8]{0x00, 0x01, 0x23, 0x45, 0xab, 0xcd, 0xef, 0xff};
+uint8_t txData[8]{0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07};
 uint8_t txDataLen = 8;
-uint32_t txDly = 5000; // mSec
+uint32_t txDly = 500; // mSec
 
 //  ****** uncomment the following for the second stm32f103 board ******
 
@@ -41,7 +41,8 @@ eXoCAN can;
 
 void setup()
 {
-  can.begin(STD_ID_LEN, BR500K, PORTA_11_12_XCVR); // 11b IDs, 250k bit rate, no transceiver chip, portA pins 11,12
+  Serial.begin(115200);
+  can.begin(STD_ID_LEN, BR500K, PORTA_11_12_XCVR); // 11b IDs, 500k bit rate, no transceiver chip, portA external tx/rx pins 11,12
   can.filterMask16Init(0, 0, 0, 0, 0);                // filter bank 0, filter 0: don't pass any(0x7ff), flt 1: pass all msgs
   pinMode(bluePillLED, OUTPUT);
 }
@@ -53,8 +54,9 @@ void loop()
   {
     last = millis() / txDly;
     can.transmit(txMsgID, txData, txDataLen);
+    Serial.println("message sent..");
   }
 
-  if (can.receive(id, fltIdx, rxbytes) > -1) // poll for rx
-    digitalToggle(bluePillLED);
+  //if (can.receive(id, fltIdx, rxbytes) > -1) // poll for rx
+    //digitalToggle(bluePillLED);
 }
