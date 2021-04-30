@@ -313,10 +313,10 @@ void loop() {
 
         if(tcpClient.isConnected())
         {               
-            Serial.println("Writing: ");  
+            //Serial.println("Writing: ");  
             for(int i=0; i < dataSize; i++) 
             {
-                Serial.print((char) dataRead[i]);
+                Serial.println((char) dataRead[i]);
             }
            
         }
