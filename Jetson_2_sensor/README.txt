@@ -1,0 +1,1 @@
+Use bluepill_recv_led for bluepill , multiple_can(bkp) for NXP , sensor_can_tcp_bidir for chipkit , gui_data_send for jetson using gui or socket_bidir_usrctrl for jetson using touch sensor
