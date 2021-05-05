@@ -1,4 +1,6 @@
-for circuit refer connections
+NOTE: First switch ON power supply for NXP and then connect the USB else it wont respond
+ 
+in case any error from mpu6050 use mpu6050_check_plot
 
 UPDATE:
 For multiple 3 CAN ports,
