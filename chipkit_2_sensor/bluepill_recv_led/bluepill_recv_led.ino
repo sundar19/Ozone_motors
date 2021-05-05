@@ -24,7 +24,7 @@
 //#define bluePillLED PC13
 
 int txMsgID = 0x01;
-uint8_t txData[8]{0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08};
+uint8_t txData[8]{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 uint8_t txDataLen = 8;
 uint32_t txDly = 500; // mSec
 
@@ -75,6 +75,14 @@ void loop()
   if (rxbytes[0] == 1)
   {
     digitalWrite(PC13,!(digitalRead(PC13)));
+    if (digitalRead(PC13) == HIGH)
+    {
+      txData[0] = 1;
+    }
+    else
+    {
+      txData[0] = 0;
+    }
   }
 }
 can.transmit(txMsgID, txData, txDataLen);
