@@ -1,0 +1,83 @@
+(ExpressProject "Design3"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design3.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\design3.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "sundar krishna")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\design3.dsn")
+      (Path "Design Resources" ".\design3.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\design3.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1378 52 369")
+        (Scroll "1066 906")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\GIT MANAGE\OZONE_MOTORS\SENSOR_2_JETSON\OZONE_ALICE_ACCEL\DESIGN3.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (Jetson
+      (FullPartName "Jetson.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Arduino_Nano
+      (FullPartName "Arduino_Nano.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\ARDUINO_NANO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Temp_Humid
+      (FullPartName "Temp_Humid.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\T&H\LIBRARY4.OLB")
+      (DeviceIndex "0"))
+    (press_sense
+      (FullPartName "press_sense.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\PRESS_SENSE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (AirQ
+      (FullPartName "AirQ.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\AIRQ\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (chipkit
+      (FullPartName "chipkit.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\CHIPKIT\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (TJA1050
+      (FullPartName "TJA1050.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\TJA1050\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (MPC5606B
+      (FullPartName "MPC5606B.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\MPC5606B\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (can_module
+      (FullPartName "can_module.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\CAN_MODULE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CONN EDGE 6X2"
+      (FullPartName "CONN EDGE 6X2.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (MPU6050
+      (FullPartName "MPU6050.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\MPU6050\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\SPB_Data(1)\libs\Arduino_nano"))
