@@ -78,14 +78,16 @@ void loop()
     if (digitalRead(PC13) == HIGH)
     {
       txData[0] = 1;
+      can.transmit(txMsgID, txData, txDataLen);
     }
     else
     {
       txData[0] = 0;
+      can.transmit(txMsgID, txData, txDataLen);
     }
   }
 }
-can.transmit(txMsgID, txData, txDataLen);
+
 delay(1000);
     //digitalToggle(bluePillLED);
 }
