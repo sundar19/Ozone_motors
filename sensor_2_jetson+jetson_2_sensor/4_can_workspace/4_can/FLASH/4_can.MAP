@@ -113,7 +113,7 @@ Link map of __start
        6] k (object,global) found in main_c.obj 
        6] CanRxMbFull0 (func,global) found in CANdrv_c.obj 
        6] CanRxMsg0 (func,global) found in CANdrv_c.obj 
-       6] CANcheck2 (object,global) found in main_c.obj 
+       6] CANcheck0 (object,global) found in main_c.obj 
        6] CanTxMsg (func,global) found in CANdrv_c.obj 
        6] CanRxMbFull (func,global) found in CANdrv_c.obj 
        6] CanRxMsg (func,global) found in CANdrv_c.obj 
@@ -121,6 +121,7 @@ Link map of __start
        6] CanTxMsg0 (func,global) found in CANdrv_c.obj 
        6] CanRxMbFull2 (func,global) found in CANdrv_c.obj 
        6] CanRxMsg2 (func,global) found in CANdrv_c.obj 
+       6] CANcheck2 (object,global) found in main_c.obj 
        6] CanRxMbFull3 (func,global) found in CANdrv_c.obj 
        6] CanRxMsg3 (func,global) found in CANdrv_c.obj 
        6] CANcheck3 (object,global) found in main_c.obj 
@@ -154,7 +155,7 @@ Link map of __start
     3] .text (section,local) found in pit_init_c.obj 
     3] .text.9 (notype,local) found in pit_init_c.obj 
     3] .text (section,local) found in main_c.obj 
-    3] .text.95 (notype,local) found in main_c.obj 
+    3] .text.96 (notype,local) found in main_c.obj 
     3] .text (section,local) found in linflex_init_c.obj 
     3] .text.33 (notype,local) found in linflex_init_c.obj 
     3] .text (section,local) found in intc_sw_vecttable_c.obj 
@@ -311,7 +312,7 @@ Link map of __start
   0000154e 0001a2 0000454e 00001bfe  2 ProcessCAN 	main_c.obj 
   000016f0 00003e 000046f0 00001da0  2 ProcessGPIO 	main_c.obj 
   0000172e 00003c 0000472e 00001dde  2 ProcessADC 	main_c.obj 
-  0000176a 000000 0000476a 00001e1a  1 .text.95 	main_c.obj 
+  0000176a 000000 0000476a 00001e1a  1 .text.96 	main_c.obj 
   0000176a 000514 0000476a 00001e1a  1 .text 	linflex_init_c.obj 
   0000176a 000028 0000476a 00001e1a  2 linflex_init_fnc 	linflex_init_c.obj 
   00001792 000164 00004792 00001e42  2 linflex0_init_fnc 	linflex_init_c.obj 
@@ -457,23 +458,24 @@ Link map of __start
   Starting        Virtual  File
   address  Size   address  offset
   ---------------------------------
-  00000000 000027 40000038 00004c80  1 .sbss 	main_c.obj 
-  00000000 000008 40000038 00004c80  8 CANcheck 	main_c.obj 
-  00000008 000008 40000040 00004c88  8 CANcheck2 	main_c.obj 
-  00000010 000008 40000048 00004c90  8 CANcheck3 	main_c.obj 
-  00000018 000004 40000050 00004c98  4 k 	main_c.obj 
-  0000001c 000004 40000054 00004c9c  4 j 	main_c.obj 
-  00000020 000004 40000058 00004ca0  4 i 	main_c.obj 
-  00000024 000002 4000005c 00004ca4  2 potValue 	main_c.obj 
-  00000026 000001 4000005e 00004ca6  1 switchState 	main_c.obj 
+  00000000 00002f 40000038 00004c80  1 .sbss 	main_c.obj 
+  00000000 000008 40000038 00004c80  8 CANcheck0 	main_c.obj 
+  00000008 000008 40000040 00004c88  8 CANcheck 	main_c.obj 
+  00000010 000008 40000048 00004c90  8 CANcheck2 	main_c.obj 
+  00000018 000008 40000050 00004c98  8 CANcheck3 	main_c.obj 
+  00000020 000004 40000058 00004ca0  4 k 	main_c.obj 
+  00000024 000004 4000005c 00004ca4  4 j 	main_c.obj 
+  00000028 000004 40000060 00004ca8  4 i 	main_c.obj 
+  0000002c 000002 40000064 00004cac  2 potValue 	main_c.obj 
+  0000002e 000001 40000066 00004cae  1 switchState 	main_c.obj 
 
 
 .bss section layout
   Starting        Virtual  File
   address  Size   address  offset
   ---------------------------------
-  00000000 000104 40000060 00004c80  1 .bss 	UART_drv_c.obj 
-  00000000 000104 40000060 00004c80  4 UARTBuf 	UART_drv_c.obj 
+  00000000 000104 40000068 00004c80  1 .bss 	UART_drv_c.obj 
+  00000000 000104 40000068 00004c80  4 UARTBuf 	UART_drv_c.obj 
 
 
 .tibss section layout
@@ -504,15 +506,15 @@ Memory map:
                 .sbss2 00007594 00000000 00004c44 00007594 00007594          0
                  .data 40000000 0000002c 00004c48 00007598 00007598        954
                 .sdata 40000030 00000004 00004c78 000075c8 000075c8        957
-                 .sbss 40000038 00000028 00004c80 000075d0 000075d0          0
-                  .bss 40000060 00000104 00004c80 000075d0 000075d0          0
-      .PPC.EMB.apuinfo 0000a440 00000000 0000f0c0 00011a10 00011a10          0
+                 .sbss 40000038 00000030 00004c80 000075d0 000075d0          0
+                  .bss 40000068 00000104 00004c80 000075d0 000075d0          0
+      .PPC.EMB.apuinfo 0000a494 00000000 0000f120 00011a64 00011a64          0
          .debug_abbrev          00000137 00004c80
-           .debug_info          00002b5d 00004db7
-        .debug_aranges          00000080 00007914
-           .debug_line          00005115 00007994
-            .debug_loc          00000675 0000caa9
-       .debug_pubnames          00000922 0000d11e
+           .debug_info          00002b8c 00004db7
+        .debug_aranges          00000080 00007943
+           .debug_line          00005115 000079c3
+            .debug_loc          00000675 0000cad8
+       .debug_pubnames          00000930 0000d14d
 
 
 Linker generated symbols:
@@ -522,7 +524,7 @@ Linker generated symbols:
                __DATA_RAM 40000000
                __DATA_END 40000034
               __BSS_START 40000034
-                __BSS_END 40000164
+                __BSS_END 4000016c
                 __SP_INIT 40014000
                  __SP_END 40013000
                __HEAP_END 40013000
@@ -534,7 +536,7 @@ Linker generated symbols:
               ___DATA_RAM 40000000
               ___DATA_END 40000034
              ___BSS_START 40000034
-               ___BSS_END 40000164
+               ___BSS_END 4000016c
         _f___bam_bootarea 00000000
     _f___bam_bootarea_rom 00000000
         _e___bam_bootarea 00000008
@@ -583,15 +585,15 @@ Linker generated symbols:
              _f_sdata_rom 000075c8
                  _e_sdata 40000034
                   _f_sbss 40000038
-                  _e_sbss 40000060
-                   _f_bss 40000060
-                   _e_bss 40000164
-                 _f_tibss 40000164
+                  _e_sbss 40000068
+                   _f_bss 40000068
+                   _e_bss 4000016c
+                 _f_tibss 4000016c
              _f_tibss_rom 000075d0
-                 _e_tibss 40000164
-                _f_tidata 40000164
+                 _e_tibss 4000016c
+                _f_tidata 4000016c
             _f_tidata_rom 000075d0
-                _e_tidata 40000164
+                _e_tidata 4000016c
               _stack_addr 003dfff0
                _stack_end 003d7ff0
                _heap_addr 003cfff0

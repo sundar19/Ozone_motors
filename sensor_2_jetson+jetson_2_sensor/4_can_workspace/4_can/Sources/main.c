@@ -64,6 +64,7 @@ void ProcessADC(void);
 /* CAN messages to transmit */
 unsigned char msgOKCAN[8] = {1,1,0,0,0,0,0,0};
 unsigned char msgErrorCAN[8] = {1,0xFF,0,0,0,0,0,0};
+unsigned char CANcheck0[8] = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
 unsigned char CANcheck[8] = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
 unsigned char CANcheck2[8] = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
 unsigned char CANcheck3[8] = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
@@ -158,10 +159,10 @@ void ProcessCAN(void)
 		msgCanRX0 = CanRxMsg0(0);	
 		for (i=0;i<=7;i++)
 		{
-			CANcheck2[i]=msgCanRX0.data[i];
+			CANcheck0[i]=msgCanRX0.data[i];
 			//CanTxMsg (2, 1, 8,(uint8_t *)CANcheck, 0);
 		}
-		CanTxMsg (2, 1, 8,(uint8_t *)CANcheck2, 0); 
+		CanTxMsg (2, 1, 8,(uint8_t *)CANcheck0, 0); 
 	}
 	
 	if (CanRxMbFull(0) == 1)	// Check if CAN message received 
