@@ -1,0 +1,62 @@
+(ExpressProject "Design7"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design7.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\design7.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\design7.dsn")
+      (Path "Design Resources" ".\design7.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\design7.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1382 52 373")
+        (Scroll "-96 81")
+        (Zoom "54")
+        (Occurrence "/"))
+      (Path "D:\SPB_DATA(1)\OZONE_ALICE_RELAY\DESIGN7.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (Jetson
+      (FullPartName "Jetson.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (chipkit
+      (FullPartName "chipkit.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\CHIPKIT\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (MPC5606B
+      (FullPartName "MPC5606B.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\MPC5606B\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TJA1050
+      (FullPartName "TJA1050.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\TJA1050\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (FTDI
+      (FullPartName "FTDI.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\FTDI\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (BluePill
+      (FullPartName "BluePill.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\BLUEPILL\LIBRARY3.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\SPB_Data(1)\libs\jetson")
+  (MPSSessionName "sundar krishna"))
