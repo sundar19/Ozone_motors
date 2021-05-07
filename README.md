@@ -9,4 +9,4 @@ Arduino_nxp_chipkit Arduino<===>NXP<====>Chipkit (Both sensor and dummy)
 
 sensor_2_jetson Arduino<===>NXP<===>Chipkit<===>Jetson (sensor only)
 
-jetson_2_sensor   Bluepill<===>NXP<===>Chipkit (Bidirectional)
+jetson_2_sensor   Bluepill<===>NXP<===>Chipkit<===>Jetson (Bidirectional)
