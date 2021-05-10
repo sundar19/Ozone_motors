@@ -17,6 +17,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         p1,p2,p3,p4,p5,p6,p7,p8 = tuple([bool(r >> i & 0x01) for i in range(8)])
         if p1 == True:
             s.sendall(b'a')
+            print("light toggled")
         else:
             pass
         bus.write_byte_data(0x29,0x00,0x00)
