@@ -13,4 +13,12 @@ NXP ==> 4_can_workspace
 
 ChipKit ==> sensor_can_tcp_bidir
 
-Jetson (set static IP for Jetson) ==> gui_data_send
+(set static IP for Jetson)
+
+[using GUI]
+
+Jetson  ==> gui_data_send
+
+[OR for touch sensor ] 
+
+Jetson ==> socket_bidir_usrctrl.py

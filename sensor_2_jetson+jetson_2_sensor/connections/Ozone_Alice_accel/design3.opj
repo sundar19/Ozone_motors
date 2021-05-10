@@ -22,18 +22,8 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 282"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 26 1352 26 343")
-        (Scroll "-376 0")
-        (Zoom "21")
-        (Occurrence "/"))
-      (Path "D:\SPB_DATA(1)\OZONE_ALICE_ACCEL\DESIGN3.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0)))
   (PartMRUSelector
     (grove_piezo
       (FullPartName "grove_piezo.Normal")
