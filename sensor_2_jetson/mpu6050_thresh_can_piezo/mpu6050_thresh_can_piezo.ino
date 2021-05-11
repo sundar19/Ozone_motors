@@ -156,7 +156,7 @@ void imu3()
   //Serial.print(" || GyroY = "); Serial.print(GyroY);
   //Serial.print(" || GyroZ = "); Serial.println(GyroZ);
   //delay(10);
- if ((AccZ3 > -16000) || (AccZ3 < -17500))
+ if ((AccZ3 > -16000) || (AccZ3 < -18000))
   {
     push3();
   }
