@@ -26,3 +26,7 @@ Jetson ==> socket_bidir_usrctrl.py
 [touch sensor + heal]
 
 Jetson ==> socket_bidir_usrctrl_heal.py
+
+[GUI + heal]
+
+Jetson ==> gui_data_send_heal.py
