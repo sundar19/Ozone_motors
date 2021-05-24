@@ -11,6 +11,29 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (cap_touch
+      (FullPartName "cap_touch.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\CAP_TOUCH\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (jetson
+      (FullPartName "jetson.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY4.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW TACT-SPST-2"
+      (FullPartName "SW TACT-SPST-2.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW TACT-SPST"
+      (FullPartName "SW TACT-SPST.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (Jetson
       (FullPartName "Jetson.Normal")
       (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY1.OLB")
@@ -31,12 +54,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1434 104 425")
-        (Scroll "92 465")
-        (Zoom "50")
+        (Placement "44 2 3 -1 -1 -8 -31 -173 1153 63 380")
+        (Scroll "192 374")
+        (Zoom "84")
         (Occurrence "/"))
-      (Path
-         "D:\GIT MANAGE\OZONE_MOTORS\SENSOR_2_JETSON\OZONE_ALICE_SENSORS\DESIGN5.DSN")
+      (Path "D:\SPB_DATA(1)\OZONE_ALICE_SENSORS\DESIGN5.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (LastUsedLibraryBrowseDirectory "D:\SPB_Data(1)\libs\jetson"))
+  (LastUsedLibraryBrowseDirectory "D:\SPB_Data(1)\libs\cap_touch"))

@@ -26,14 +26,44 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1382 52 373")
-        (Scroll "-96 81")
-        (Zoom "54")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1404 78 395")
+        (Scroll "0 73")
+        (Zoom "108")
         (Occurrence "/"))
       (Path "D:\SPB_DATA(1)\OZONE_ALICE_RELAY\DESIGN7.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (PartMRUSelector
+    (jetson
+      (FullPartName "jetson.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY4.OLB")
+      (DeviceIndex "0"))
+    (cap_touch
+      (FullPartName "cap_touch.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\CAP_TOUCH\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BC547
+      (FullPartName "BC547.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (JSM-1A-12V-4
+      (FullPartName "JSM-1A-12V-4.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\RELAY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (Jetson
       (FullPartName "Jetson.Normal")
       (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY1.OLB")
