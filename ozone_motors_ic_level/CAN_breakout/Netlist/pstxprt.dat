@@ -1,0 +1,270 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001May-25-2021 at 08:12:53 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='OZONE_MOTORS_V2';
+ POST_TIME='Feb 23 2021 16:03:52';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ 10K1 'RESISTOR_RES400_RESISTOR':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS496@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins496@discrete.\resistor.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins496@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ 120R1 'RESISTOR_RES400_RESISTOR':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS512@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins512@discrete.\resistor.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins512@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ 1K1 'RESISTOR_RES400_RESISTOR':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS528@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins528@discrete.\resistor.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins528@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ 1K2 'RESISTOR_RES400_RESISTOR':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS2641@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins2641@discrete.\resistor.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins2641@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP NP_CAP300_CAP NP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS455@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins455@discrete.\cap np.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins455@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CAP300_CAP NP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS471@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins471@discrete.\cap np.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins471@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_CAP196_CAP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS2351@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins2351@discrete.\cap.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins2351@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_CAP300_CAP NP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS2367@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins2367@discrete.\cap np.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins2367@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_CAP300_CAP NP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS2383@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins2383@discrete.\cap np.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins2383@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP_CAP196_CAP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS578@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins578@discrete.\cap.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins578@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_CAP300_CAP NP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS603@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins603@discrete.\cap np.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins603@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_CAP300_CAP NP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS619@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins619@discrete.\cap np.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins619@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_CPCYL1D150LS125031_LED':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS553@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins553@discrete.\led.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins553@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_CPCYL1D150LS125031_LED':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS2657@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins2657@discrete.\led.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins2657@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS701@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins701@connector.\con2.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins701@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON7_0_SAMTEC_DW-07-10-G-S-630_CON7':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS11506@FIRST_PROJECT.CON7_0.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins11506@first_project.\con7_0.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins11506@first_project.\con7_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS685@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins685@connector.\con2.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins685@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS717@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins717@connector.\con2.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins717@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON9_2_SAMTEC_DW-09-15-T-S-400_CON9':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS10399@FIRST_PROJECT.CON9_2.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins10399@first_project.\con9_2.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins10399@first_project.\con9_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON7_0_SAMTEC_DW-07-10-G-S-630_CON7':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS5740@FIRST_PROJECT.CON7_0.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins5740@first_project.\con7_0.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins5740@first_project.\con7_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CON7_0_SAMTEC_DW-07-10-G-S-630_CON7':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS5766@FIRST_PROJECT.CON7_0.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins5766@first_project.\con7_0.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins5766@first_project.\con7_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'CON2_JUMPER2_PWR_MCP':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS644@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins644@connector.\con2.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins644@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'CON2_JUMPER2_PWR_TJA':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS660@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins660@connector.\con2.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins660@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'MCP2515-ESO_0_SOIC127P1030X265-18N_MCP2515-ESO':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS58@OZONE_MOTORS_V2.MCP2515-ESO_0.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins58@ozone_motors_v2.\mcp2515-eso_0.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins58@ozone_motors_v2.\mcp2515-eso_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'TJA1050T_SOP8_TJA1050T':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS131@TJA1050.TJA1050T.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins131@tja1050.\tja1050t.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins131@tja1050.\tja1050t.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_XTAL_ECS-160-20-4X_CRYSTAL':;
+
+SECTION_NUMBER 1
+ '@OZONE_MOTORS_V2.SCHEMATIC1(SCH_1):INS430@DISCRETE.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@ozone_motors_v2.schematic1(sch_1):ins430@discrete.\crystal.normal\(chips)',
+ P_PATH='@ozone_motors_v2.schematic1(sch_1):page1_ins430@discrete.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

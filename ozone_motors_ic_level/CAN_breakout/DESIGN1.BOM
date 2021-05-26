@@ -1,0 +1,21 @@
+TELEMETRY  Revised: Tuesday, May 25, 2021
+          Revision: 
+
+OZONE MOTORS
+
+
+
+
+
+Bill Of Materials            May 25,2021      14:24:04	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	D1	LED
+2	1	J2	CON5
+3	3	1K,R4,4.7K	RESISTOR
+4	1	U1	MPU6050
+5	1	U2	LDO 3.3V
+6	3	0.1u,0.01u,220pF	CAP NP
+7	2	10u,4.7u	CAP

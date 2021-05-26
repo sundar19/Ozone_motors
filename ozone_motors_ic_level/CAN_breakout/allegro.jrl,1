@@ -1,0 +1,757 @@
+\t (00:00:04) allegro 17.4 S015 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Tue May 25 08:12:59 2021
+\t (00:00:04)         Host=LAPTOP-88C1UNRV User=abhin Pid=22052 CPUs=8
+\t (00:00:04) CmdLine= allegro.exe -proj D:/OrCad Projects/Documentation/project_2/Ozone_motors_V2.opj d:/orcad projects/documentation/project_2/ozone_motors_v2.brd
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "ozone_motors_v2"
+\d (00:00:06) Design opened: d:/orcad projects/documentation/project_2/ozone_motors_v2.brd
+\i (00:00:06) trapsize 25547
+\i (00:00:07) trapsize 28226
+\i (00:00:07) trapsize 25547
+\i (00:00:07) trapsize 19924
+\i (00:00:07) trapsize 19924
+\t (00:00:07) > Sending response DoneOpenBoard
+\i (00:00:07) trapsize 12252
+\i (00:00:07) generaledit 
+\i (00:00:10) done 
+\i (00:00:10) place manual 
+\w (00:00:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:10) setwindow form.plc_manual
+\i (00:00:10) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) FORM plc_manual placement_list 
+\i (00:00:10) FORM plc_manual categories Components by refdes 
+\i (00:00:10) trapsize 12252
+\i (00:00:13) setwindow form.plc_manual
+\i (00:00:13) FORM plc_manual tree  10K1 'Components by refdes' 
+\i (00:00:15) FORM plc_manual tree 'MULTISEL YES' 10K1 'Components by refdes' 
+\t (00:00:15) Placing 10K1 / RESISTOR_RES400_RESISTOR / RES400 on Top.
+\i (00:00:18) FORM plc_manual tree 'MULTISEL NO' 10K1 'Components by refdes' 
+\i (00:00:31) FORM plc_manual done  
+\i (00:00:32) setwindow pcb
+\i (00:00:32) generaledit 
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 8331.39 7228.70
+\i (00:00:32) trapsize 6126
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 8331.39 7228.70
+\i (00:00:32) trapsize 3063
+\i (00:00:37) grid toggle 
+\i (00:00:37) generaledit 
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 8215.00 7369.60
+\i (00:00:38) trapsize 6126
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 8215.01 7369.61
+\i (00:00:38) trapsize 12252
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 7865.81 7816.80
+\i (00:00:38) trapsize 6126
+\i (00:00:38) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 7914.82 10132.44
+\i (00:00:53) trapsize 3063
+\i (00:00:53) pick grid 7871.94 9348.31
+\t (00:00:53) last pick:  7900.00 9300.00
+\i (00:00:53) pick grid 9078.77 8582.56
+\t (00:00:53) last pick:  9100.00 8600.00
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 7914.83 10132.44
+\i (00:00:53) trapsize 1532
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 7914.83 10132.44
+\i (00:00:53) trapsize 766
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 7914.82 10132.45
+\i (00:00:53) trapsize 383
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 7914.82 10132.45
+\i (00:00:53) trapsize 191
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 7914.82 10132.45
+\i (00:00:53) trapsize 96
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 7914.82 10132.46
+\i (00:00:53) trapsize 48
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out 7914.82 10132.45
+\i (00:00:53) trapsize 96
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 7914.82 10132.47
+\i (00:00:53) trapsize 48
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out 7914.82 10132.46
+\i (00:00:54) trapsize 96
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 7914.82 10132.48
+\i (00:00:54) trapsize 191
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 7914.82 10132.47
+\i (00:00:54) trapsize 383
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 7914.82 10132.47
+\i (00:00:54) trapsize 766
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 7914.82 10132.47
+\i (00:00:54) trapsize 1532
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 8049.61 9532.10
+\i (00:00:55) trapsize 3063
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 8049.60 9532.09
+\i (00:00:55) trapsize 6126
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 8049.61 9532.10
+\i (00:00:55) trapsize 3063
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 8049.61 9532.10
+\i (00:00:55) trapsize 1532
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 8049.62 9532.11
+\i (00:00:55) trapsize 766
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 8049.62 9532.11
+\i (00:00:56) trapsize 1532
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 8049.63 9532.12
+\i (00:00:56) trapsize 3063
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 8049.62 9532.11
+\i (00:00:57) trapsize 1532
+\i (00:01:01) done 
+\i (00:01:01) place manual 
+\w (00:01:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:01) setwindow form.plc_manual
+\i (00:01:01) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) FORM plc_manual placement_list 
+\i (00:01:01) FORM plc_manual categories Components by refdes 
+\i (00:01:01) trapsize 1532
+\i (00:01:03) setwindow form.plc_manual
+\i (00:01:03) FORM plc_manual tree  10K1 'Components by refdes' 
+\i (00:01:03) FORM plc_manual tree 'MULTISEL YES' 10K1 'Components by refdes' 
+\t (00:01:03) Placing 10K1 / RESISTOR_RES400_RESISTOR / RES400 on Top.
+\i (00:01:09) FORM plc_manual tree 'MULTISEL NO' 10K1 'Components by refdes' 
+\i (00:01:10) FORM plc_manual done  
+\i (00:01:11) setwindow pcb
+\i (00:01:11) generaledit 
+\i (00:03:02) trapsize 2481
+\i (00:03:02) trapsize 2491
+\i (00:03:03) trapsize 930
+\i (00:04:07) prmed 
+\i (00:04:27) setwindow form.prmedit
+\i (00:04:27) FORM prmedit ratsnest_display Straight 
+\i (00:04:27) FORM prmedit display_plated_holes YES 
+\i (00:04:28) FORM prmedit display_non_plated_holes YES 
+\i (00:04:52) FORM prmedit view_grids_button  
+\t (00:04:53) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:04:56) setwindow form.grid
+\i (00:04:56) FORM grid all_etch all_etch_x_grids 100 
+\i (00:04:58) FORM grid all_etch all_etch_y_grids 100 
+\i (00:05:00) FORM grid apply  
+\i (00:05:01) FORM grid done  
+\i (00:05:04) setwindow form.prmedit
+\i (00:05:04) FORM prmedit view_grids_button  
+\t (00:05:04) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:05:06) setwindow form.grid
+\i (00:05:06) FORM grid done  
+\i (00:05:10) setwindow form.prmedit
+\i (00:05:10) FORM prmedit design  
+\i (00:05:26) FORM prmedit apply  
+\i (00:05:26) FORM prmedit done  
+\i (00:05:27) setwindow pcb
+\i (00:05:27) generaledit 
+\i (00:07:25) cmgr 
+\i (00:07:27) generaledit 
+\i (00:07:33) QtSignal m_domainSelector WS_Electrical itemSelectionChanged "Electrical Constraint Set" +
+\i (00:07:33) QtSignal Routing
+\i (00:07:33) QtSignal m_domainSelector WS_Electrical itemClicked "Electrical Constraint Set" Routing
+\i (00:07:36) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (00:07:37) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (00:07:37) QtSignal "All Layers"
+\i (00:07:37) QtSignal m_domainSelector WS_Physical itemClicked "Physical Constraint Set" "All Layers"
+\i (00:09:16) QtSignal inCell text editingFinished 15
+\i (00:09:42) QtSignal inCell text editingFinished "8.00"
+\i (00:10:41) QtSignal inCell text editingFinished "0.00"
+\i (00:10:44) QtSignal m_domainSelector WS_Physical itemSelectionChanged Net "All Layers"
+\i (00:10:44) QtSignal m_domainSelector WS_Physical itemClicked Net "All Layers"
+\i (00:11:13) QtSignal inCell text editingFinished "30.00"
+\i (00:11:18) QtSignal inCell text editingFinished "30.00"
+\i (00:11:23) QtSignal inCell text editingFinished "30.00"
+\i (00:11:51) QtSignal inCell text editingFinished "20.00"
+\i (00:11:54) QtSignal inCell text editingFinished "20.00"
+\i (00:11:57) QtSignal inCell text editingFinished "20.00"
+\i (00:12:35) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
+\i (00:12:36) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
+\i (00:12:36) QtSignal "All Layers"
+\i (00:12:36) QtSignal m_domainSelector WS_Spacing itemClicked "Spacing Constraint Set" "All Layers"
+\i (00:13:12) QtFillin OK
+\i (00:13:15) QtSignal inCell text editingFinished 8
+\i (00:13:21) QtFillin Cancel
+\i (00:13:22) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:22) QtSignal 1
+\i (00:13:23) QtSignal m_menuBar menuEdit Triggered Copy
+\i (00:13:23) QtSignal inCell text editingFinished "***"
+\i (00:13:23) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:23) QtSignal 1
+\i (00:13:24) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:13:25) QtSignal inCell text editingFinished "***"
+\i (00:13:25) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:25) QtSignal 1
+\i (00:13:25) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:13:26) QtSignal inCell text editingFinished "***"
+\i (00:13:26) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:26) QtSignal 1
+\i (00:13:26) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:13:27) QtSignal inCell text editingFinished "***"
+\i (00:13:27) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:27) QtSignal 1
+\i (00:13:27) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:13:28) QtSignal inCell text editingFinished "***"
+\i (00:13:28) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:28) QtSignal 1
+\i (00:13:28) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:13:29) QtSignal inCell text editingFinished "***"
+\i (00:13:29) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:29) QtSignal 1
+\i (00:13:29) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:13:29) QtSignal inCell text editingFinished "***"
+\i (00:13:29) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:29) QtSignal 1
+\i (00:13:30) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:13:30) QtSignal inCell text editingFinished "***"
+\i (00:13:30) QtSignal CCMVTabbediewHost80 CCMViewHost167 keyPressEvent 16777249 67108864 false +
+\i (00:13:30) QtSignal 1
+\i (00:13:30) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:13:46) QtSignal inCell text editingFinished "5.00"
+\i (00:14:03) QtSignal inCell text editingFinished 8
+\i (00:14:07) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:14:07) QtSignal m_domainSelector WS_Spacing itemClicked Net "All Layers"
+\i (00:14:16) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged "Same Net Spacing"
+\i (00:14:18) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (00:14:18) QtSignal "All Layers"
+\i (00:14:18) QtSignal m_domainSelector WS_Same_Net_Spacing itemClicked "Same Net Spacing Constraint Set" +
+\i (00:14:18) QtSignal "All Layers"
+\i (00:14:24) QtSignal inCell text editingFinished 8
+\i (00:14:26) QtSignal inCell text editingFinished "8.00"
+\i (00:14:26) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:26) QtSignal 1
+\i (00:14:26) QtSignal m_menuBar menuEdit Triggered Copy
+\i (00:14:27) QtSignal inCell text editingFinished "***"
+\i (00:14:27) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:27) QtSignal 1
+\i (00:14:28) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:14:28) QtSignal inCell text editingFinished "***"
+\i (00:14:28) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:28) QtSignal 1
+\i (00:14:29) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:14:29) QtSignal inCell text editingFinished "***"
+\i (00:14:29) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:29) QtSignal 1
+\i (00:14:29) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:14:30) QtSignal inCell text editingFinished "***"
+\i (00:14:30) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:30) QtSignal 1
+\i (00:14:30) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:14:31) QtSignal inCell text editingFinished "***"
+\i (00:14:31) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:31) QtSignal 1
+\i (00:14:31) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:14:32) QtSignal inCell text editingFinished "***"
+\i (00:14:32) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:32) QtSignal 1
+\i (00:14:32) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:14:32) QtSignal inCell text editingFinished "***"
+\i (00:14:32) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:32) QtSignal 1
+\i (00:14:33) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:14:33) QtSignal inCell text editingFinished "***"
+\i (00:14:33) QtSignal CCMVTabbediewHost173 CCMViewHost174 keyPressEvent 16777249 67108864 false +
+\i (00:14:33) QtSignal 1
+\i (00:14:33) QtSignal m_menuBar menuEdit Triggered Paste
+\i (00:14:39) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged Net "All Layers"
+\i (00:14:39) QtSignal m_domainSelector WS_Same_Net_Spacing itemClicked Net "All Layers"
+\i (00:14:40) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (00:14:40) QtSignal "All Layers"
+\i (00:14:40) QtSignal m_domainSelector WS_Same_Net_Spacing itemClicked "Same Net Spacing Constraint Set" +
+\i (00:14:40) QtSignal "All Layers"
+\i (00:15:34) QtSignal menuFile menuExport Triggered "Technology File..."
+\i (00:15:36) QtSignal MainWindow BaseFileDlgWithScope closed
+\i (00:15:36) QtSignal m_menuBar menuFile Triggered "Technology File..."
+\i (00:15:38) QtSignal menuFile menuExport Triggered "Constraints..."
+\i (00:15:50) QtSignal groupBox_2 radioBtn_DesignSpecific toggled on
+\i (00:15:50) QtSignal groupBox_2 radioBtn_DesignSpecific clicked on
+\i (00:15:55) QtSignal BaseFileDlgWithScope AQFileDialog finished 1
+\i (00:15:55) QtFillin "D:/orcad projects/documentation/project_2/ozone_motors_v2.dcfx"
+\i (00:15:55) QtFillin ReportPath "D:/orcad projects/documentation/project_2/Report.xml"
+\i (00:15:55) QtSignal m_menuBar menuFile Triggered "Constraints..."
+\i (00:16:19) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged
+\i (00:16:19) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged Net "All Layers"
+\i (00:16:24) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:16:24) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (00:16:24) QtSignal m_domainSelector WS_Electrical itemSelectionChanged "Electrical Constraint Set" +
+\i (00:16:24) QtSignal Routing Wiring
+\i (00:16:25) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (00:16:25) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (00:16:25) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (00:16:25) QtSignal "All Layers"
+\i (00:16:26) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (00:16:26) QtSignal m_domainSelector WS_Physical itemSelectionChanged Net "All Layers"
+\i (00:16:27) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
+\i (00:16:27) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:16:27) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
+\i (00:16:27) QtSignal "All Layers"
+\i (00:16:27) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:16:27) QtSignal m_domainSelector WS_Spacing itemSelectionChanged Net "All Layers"
+\i (00:16:40) drc update 
+\t (00:16:41) Performing DRC...
+\t (00:16:41) Multithreaded DRC update (8 threads).
+\t (00:16:41) No DRC errors detected.
+\i (00:16:41) generaledit 
+\i (00:16:59) cmgr 
+\i (00:16:59) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (00:16:59) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (00:16:59) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:16:59) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged
+\i (00:17:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:17:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:17:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:17:00) generaledit 
+\i (00:17:02) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (00:17:03) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (00:17:03) QtSignal "All Layers"
+\i (00:17:03) QtSignal m_domainSelector WS_Physical itemClicked "Physical Constraint Set" "All Layers"
+\i (00:17:04) QtSignal m_domainSelector WS_Physical itemSelectionChanged Net "All Layers"
+\i (00:17:04) QtSignal m_domainSelector WS_Physical itemClicked Net "All Layers"
+\i (00:20:20) zoom out 1 
+\i (00:20:20) setwindow pcb
+\i (00:20:20) zoom out 8158.40 9523.40
+   (00:20:20) Loading consmgr.cxt 
+   (00:20:20) Loading acns_formula.cxt 
+\i (00:20:20) trapsize 1860
+\i (00:22:49) color192 
+\i (00:22:49) generaledit 
+\i (00:23:58) QtSignal CVDColorTable CVDColorButton0:0 clicked
+\i (00:24:00) QtSignal CVDLayerTable VertHeader clickedButton Bottom
+\i (00:24:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:24:14) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:24:17) QtSignal ColorVisibilityDialog CVDTabs currentChanged Nets
+\i (00:24:18) QtSignal CVDNetSplitter CVDNetsTree itemSelectionChanged Net
+\i (00:24:46) QtSignal ColorVisibilityDialog CVDTabs currentChanged Layers
+\i (00:24:54) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+\i (00:25:22) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox RefDes 1
+\i (00:25:22) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 2
+\i (00:25:24) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Assembly_Top" RefDes 0
+\i (00:25:24) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 2
+\i (00:25:24) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:31) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:25:31) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:25:37) done 
+\i (00:25:37) place manual 
+\w (00:25:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:25:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:25:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:25:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:25:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:25:37) setwindow form.plc_manual
+\i (00:25:37) FORM plc_manual tree  'Components by refdes' 
+\i (00:25:37) setwindow pcb
+\i (00:25:37) FORM plc_manual placement_list 
+\i (00:25:37) FORM plc_manual categories Components by refdes 
+\i (00:25:37) trapsize 1860
+\i (00:25:47) setwindow form.plc_manual
+\i (00:25:47) FORM plc_manual tree  10K1 'Components by refdes' 
+\i (00:25:47) FORM plc_manual tree 'MULTISEL YES' 10K1 'Components by refdes' 
+\t (00:25:47) Placing 10K1 / RESISTOR_RES400_RESISTOR / RES400 on Top.
+\i (00:25:48) setwindow pcb
+\i (00:25:48) pick grid 6543.50 10051.77
+\t (00:25:48) last pick:  6500.00 10100.00
+\i (00:25:50) setwindow form.plc_manual
+\i (00:25:50) FORM plc_manual tree  120R1 'Components by refdes' 
+\i (00:25:50) FORM plc_manual tree 'MULTISEL YES' 120R1 'Components by refdes' 
+\t (00:25:50) Placing 120R1 / RESISTOR_RES400_RESISTOR / RES400 on Top.
+\i (00:25:54) setwindow pcb
+\i (00:25:54) pick grid 6848.61 10100.14
+\t (00:25:54) last pick:  6800.00 10100.00
+\i (00:25:55) setwindow form.plc_manual
+\i (00:25:55) FORM plc_manual tree  1K1 'Components by refdes' 
+\i (00:25:55) FORM plc_manual tree 'MULTISEL YES' 1K1 'Components by refdes' 
+\t (00:25:55) Placing 1K1 / RESISTOR_RES400_RESISTOR / RES400 on Top.
+\i (00:25:57) setwindow pcb
+\i (00:25:57) pick grid 6450.47 9489.91
+\t (00:25:57) last pick:  6500.00 9500.00
+\i (00:25:58) setwindow form.plc_manual
+\i (00:25:58) FORM plc_manual tree  1K2 'Components by refdes' 
+\i (00:25:58) FORM plc_manual tree 'MULTISEL YES' 1K2 'Components by refdes' 
+\t (00:25:58) Placing 1K2 / RESISTOR_RES400_RESISTOR / RES400 on Top.
+\i (00:26:01) setwindow pcb
+\i (00:26:01) pick grid 6249.54 10144.80
+\t (00:26:01) last pick:  6200.00 10100.00
+\i (00:26:03) setwindow form.plc_manual
+\i (00:26:03) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:26:03) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:26:03) Placing C1 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:26:05) setwindow pcb
+\i (00:26:05) prepopup 7224.43 10334.57
+\i (00:26:06) rotate 
+\t (00:26:06) Spin the element(s).
+\i (00:26:09) iangle 90.000
+\t (00:26:09) last angle:  +90.000 Degrees
+\i (00:26:13) pick grid 6323.96 8451.75
+\t (00:26:13) last pick:  6300.00 8500.00
+\i (00:26:15) setwindow form.plc_manual
+\i (00:26:15) FORM plc_manual tree  C2 'Components by refdes' 
+\i (00:26:15) FORM plc_manual tree 'MULTISEL YES' C2 'Components by refdes' 
+\t (00:26:15) Placing C2 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:26:16) setwindow pcb
+\i (00:26:16) prepopup 6621.64 8708.50
+\i (00:26:18) rotate 
+\t (00:26:18) Spin the element(s).
+\i (00:26:21) iangle 90.000
+\t (00:26:21) last angle:  +90.000 Degrees
+\i (00:26:22) pick grid 6599.31 8455.48
+\t (00:26:22) last pick:  6600.00 8500.00
+\i (00:26:24) setwindow form.plc_manual
+\i (00:26:24) FORM plc_manual tree  C3 'Components by refdes' 
+\i (00:26:24) FORM plc_manual tree 'MULTISEL YES' C3 'Components by refdes' 
+\t (00:26:24) Placing C3 / CAP_CAP196_CAP / CAP196 on Top.
+\i (00:26:26) setwindow pcb
+\i (00:26:26) prepopup 7462.58 9132.69
+\i (00:26:31) rotate 
+\t (00:26:31) Spin the element(s).
+\i (00:26:34) iangle 180.000
+\t (00:26:34) last angle:  +180.000 Degrees
+\i (00:26:39) pick grid 6003.95 8946.64
+\t (00:26:39) last pick:  6000.00 8900.00
+\i (00:26:43) setwindow form.plc_manual
+\i (00:26:43) FORM plc_manual tree  C4 'Components by refdes' 
+\i (00:26:44) FORM plc_manual tree 'MULTISEL YES' C4 'Components by refdes' 
+\t (00:26:44) Placing C4 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:26:48) setwindow pcb
+\i (00:26:48) prepopup 7060.71 8820.13
+\i (00:26:51) rotate 
+\t (00:26:51) Spin the element(s).
+\i (00:26:54) iangle -90.000
+\t (00:26:54) last angle:  +270.000 Degrees
+\i (00:27:01) pick grid 6952.80 9054.55
+\t (00:27:01) last pick:  7000.00 9100.00
+\i (00:27:02) setwindow form.plc_manual
+\i (00:27:02) FORM plc_manual tree  C5 'Components by refdes' 
+\i (00:27:02) FORM plc_manual tree 'MULTISEL YES' C5 'Components by refdes' 
+\t (00:27:02) Placing C5 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:27:04) setwindow pcb
+\i (00:27:04) prepopup 7443.97 9158.74
+\i (00:27:06) rotate 
+\t (00:27:06) Spin the element(s).
+\i (00:27:07) iangle -90.000
+\t (00:27:07) last angle:  +270.000 Degrees
+\i (00:27:09) pick grid 7380.71 9054.55
+\t (00:27:09) last pick:  7400.00 9100.00
+\i (00:27:11) setwindow form.plc_manual
+\i (00:27:11) FORM plc_manual tree  C6 'Components by refdes' 
+\i (00:27:11) FORM plc_manual tree 'MULTISEL YES' C6 'Components by refdes' 
+\t (00:27:11) Placing C6 / CAP_CAP196_CAP / CAP196 on Top.
+\i (00:27:12) setwindow pcb
+\i (00:27:12) prepopup 8098.86 9102.92
+\i (00:27:14) rotate 
+\t (00:27:14) Spin the element(s).
+\i (00:27:17) iangle -180.000
+\t (00:27:17) last angle:  +180.000 Degrees
+\i (00:27:24) pick grid 5992.79 9244.32
+\t (00:27:24) last pick:  6000.00 9200.00
+\i (00:27:27) setwindow form.plc_manual
+\i (00:27:27) FORM plc_manual tree  C7 'Components by refdes' 
+\i (00:27:27) FORM plc_manual tree 'MULTISEL YES' C7 'Components by refdes' 
+\t (00:27:27) Placing C7 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:27:33) setwindow pcb
+\i (00:27:33) prepopup 6896.99 8511.29
+\i (00:27:34) rotate 
+\t (00:27:34) Spin the element(s).
+\i (00:27:39) iangle 90.000
+\t (00:27:39) last angle:  +90.000 Degrees
+\i (00:27:41) pick grid 6963.96 8250.82
+\t (00:27:41) last pick:  7000.00 8300.00
+\i (00:27:44) setwindow form.plc_manual
+\i (00:27:44) FORM plc_manual tree  C8 'Components by refdes' 
+\i (00:27:44) FORM plc_manual tree 'MULTISEL YES' C8 'Components by refdes' 
+\t (00:27:44) Placing C8 / CAP NP_CAP300_CAP NP / CAP300 on Top.
+\i (00:27:46) setwindow pcb
+\i (00:27:46) prepopup 7403.04 8407.10
+\i (00:27:47) rotate 
+\t (00:27:47) Spin the element(s).
+\i (00:27:48) iangle 90.000
+\t (00:27:48) last angle:  +90.000 Degrees
+\i (00:27:50) pick grid 7399.32 8250.82
+\t (00:27:50) last pick:  7400.00 8300.00
+\i (00:27:52) setwindow form.plc_manual
+\i (00:27:52) FORM plc_manual tree  D1 'Components by refdes' 
+\i (00:27:52) FORM plc_manual tree 'MULTISEL YES' D1 'Components by refdes' 
+\t (00:27:52) Placing D1 / LED_CPCYL1D150LS125031_LED / CPCYL1D150LS125031 on Top.
+\i (00:27:55) setwindow pcb
+\i (00:27:55) prepopup 7317.46 10531.78
+\i (00:27:56) rotate 
+\t (00:27:56) Spin the element(s).
+\i (00:28:00) iangle -180.000
+\t (00:28:00) last angle:  +180.000 Degrees
+\i (00:28:02) pick grid 7246.76 10494.57
+\t (00:28:02) last pick:  7200.00 10500.00
+\i (00:28:04) setwindow form.plc_manual
+\i (00:28:04) FORM plc_manual tree  D2 'Components by refdes' 
+\i (00:28:04) FORM plc_manual tree 'MULTISEL YES' D2 'Components by refdes' 
+\t (00:28:04) Placing D2 / LED_CPCYL1D150LS125031_LED / CPCYL1D150LS125031 on Top.
+\i (00:28:10) setwindow pcb
+\i (00:28:10) prepopup 7492.34 10148.52
+\i (00:28:12) rotate 
+\t (00:28:12) Spin the element(s).
+\i (00:28:14) iangle -90.000
+\t (00:28:14) last angle:  +270.000 Degrees
+\i (00:28:17) pick grid 7603.97 10546.66
+\t (00:28:17) last pick:  7600.00 10500.00
+\i (00:28:21) pick grid 7600.25 10386.66
+\t (00:28:21) last pick:  7600.00 10400.00
+\t (00:28:21) Moving D2 / LED_CPCYL1D150LS125031_LED / CPCYL1D150LS125031.
+\t (00:28:21) last pick:  7600.00 10500.00
+\i (00:28:23) pick grid 7503.51 10453.64
+\t (00:28:23) last pick:  7500.00 10500.00
+\i (00:28:26) pick grid 7890.49 10088.98
+\t (00:28:26) last pick:  7900.00 10100.00
+\i (00:28:27) pick grid 7529.55 10371.78
+\t (00:28:27) last pick:  7500.00 10400.00
+\t (00:28:27) Moving D2 / LED_CPCYL1D150LS125031_LED / CPCYL1D150LS125031.
+\t (00:28:27) last pick:  7500.00 10500.00
+\i (00:28:29) prepopup 7670.95 10516.89
+\i (00:28:31) rotate 
+\t (00:28:31) Spin the element(s).
+\i (00:28:43) iangle -90.000
+\t (00:28:43) last angle:  180.000 Degrees
+\i (00:28:45) pick grid 7551.88 10490.85
+\t (00:28:45) last pick:  7600.00 10500.00
+\i (00:28:46) setwindow form.plc_manual
+\i (00:28:46) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:28:46) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:28:46) Placing J1 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:28:50) setwindow pcb
+\i (00:28:50) pick grid 8147.23 8161.52
+\t (00:28:50) last pick:  8100.00 8200.00
+\i (00:28:52) setwindow form.plc_manual
+\i (00:28:52) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:28:52) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\t (00:28:52) Placing J2 / CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 / SAMTEC_DW-07-10-G-S-630 on Top.
+\i (00:28:58) setwindow pcb
+\i (00:28:58) pick grid 8895.15 8440.59
+\t (00:28:58) last pick:  8900.00 8400.00
+\i (00:28:59) setwindow form.plc_manual
+\i (00:28:59) FORM plc_manual tree  J3 'Components by refdes' 
+\i (00:28:59) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
+\t (00:28:59) Placing J3 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:29:01) setwindow pcb
+\i (00:29:01) pick grid 8452.35 8191.29
+\t (00:29:01) last pick:  8500.00 8200.00
+\i (00:29:02) setwindow form.plc_manual
+\i (00:29:02) FORM plc_manual tree  J4 'Components by refdes' 
+\i (00:29:03) FORM plc_manual tree 'MULTISEL YES' J4 'Components by refdes' 
+\t (00:29:03) Placing J4 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:29:05) setwindow pcb
+\i (00:29:05) pick grid 7726.76 8247.10
+\t (00:29:05) last pick:  7700.00 8200.00
+\i (00:29:06) setwindow form.plc_manual
+\i (00:29:06) FORM plc_manual tree  J5 'Components by refdes' 
+\i (00:29:06) FORM plc_manual tree 'MULTISEL YES' J5 'Components by refdes' 
+\t (00:29:06) Placing J5 / CON9_2_SAMTEC_DW-09-15-T-S-400_CON9 / SAMTEC_DW-09-15-T-S-400 on Top.
+\i (00:29:10) setwindow pcb
+\i (00:29:10) prepopup 7603.97 9988.52
+\i (00:29:11) rotate 
+\t (00:29:11) Spin the element(s).
+\i (00:29:13) iangle -90.000
+\t (00:29:13) last angle:  +270.000 Degrees
+\i (00:29:15) pick grid 8325.84 10453.64
+\t (00:29:15) last pick:  8300.00 10500.00
+\i (00:29:16) setwindow form.plc_manual
+\i (00:29:16) FORM plc_manual tree  J6 'Components by refdes' 
+\i (00:29:16) FORM plc_manual tree 'MULTISEL YES' J6 'Components by refdes' 
+\t (00:29:16) Placing J6 / CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 / SAMTEC_DW-07-10-G-S-630 on Top.
+\i (00:29:24) setwindow pcb
+\i (00:29:24) prepopup 7570.48 9471.30
+\i (00:29:26) rotate 
+\t (00:29:26) Spin the element(s).
+\i (00:29:29) iangle -90.000
+\t (00:29:29) last angle:  +270.000 Degrees
+\i (00:29:31) pick grid 7741.65 10178.29
+\t (00:29:31) last pick:  7700.00 10200.00
+\i (00:29:33) setwindow form.plc_manual
+\i (00:29:33) FORM plc_manual tree  J7 'Components by refdes' 
+\i (00:29:33) FORM plc_manual tree 'MULTISEL YES' J7 'Components by refdes' 
+\t (00:29:33) Placing J7 / CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 / SAMTEC_DW-07-10-G-S-630 on Top.
+\i (00:29:40) setwindow pcb
+\i (00:29:40) pick grid 8943.52 8983.85
+\t (00:29:40) last pick:  8900.00 9000.00
+\i (00:29:42) setwindow form.plc_manual
+\i (00:29:42) FORM plc_manual tree  J8 'Components by refdes' 
+\i (00:29:42) FORM plc_manual tree 'MULTISEL YES' J8 'Components by refdes' 
+\t (00:29:42) Placing J8 / CON2_JUMPER2_PWR_MCP / JUMPER2 on Top.
+\i (00:29:46) setwindow pcb
+\i (00:29:46) pick grid 8121.19 7845.24
+\t (00:29:46) last pick:  8100.00 7800.00
+\i (00:29:48) setwindow form.plc_manual
+\i (00:29:48) FORM plc_manual tree  J9 'Components by refdes' 
+\i (00:29:49) FORM plc_manual tree 'MULTISEL YES' J9 'Components by refdes' 
+\t (00:29:49) Placing J9 / CON2_JUMPER2_PWR_TJA / JUMPER2 on Top.
+\i (00:29:51) setwindow pcb
+\i (00:29:51) pick grid 7551.88 7781.98
+\t (00:29:51) last pick:  7600.00 7800.00
+\i (00:29:53) setwindow form.plc_manual
+\i (00:29:53) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:29:54) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\t (00:29:54) Placing U1 / MCP2515-ESO_0_SOIC127P1030X265-18N_MCP2515-ESO / SOIC127P1030X265-18N on Top.
+\i (00:29:55) setwindow pcb
+\i (00:29:55) pick grid 9550.04 10278.75
+\t (00:29:55) last pick:  9600.00 10300.00
+\i (00:29:57) setwindow form.plc_manual
+\i (00:29:57) FORM plc_manual tree  U2 'Components by refdes' 
+\i (00:29:57) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
+\t (00:29:57) Placing U2 / TJA1050T_SOP8_TJA1050T / SOP8 on Top.
+\i (00:29:58) setwindow pcb
+\i (00:29:58) prepopup 10286.79 9925.26
+\i (00:30:00) rotate 
+\t (00:30:00) Spin the element(s).
+\i (00:30:05) iangle 90.000
+\t (00:30:05) last angle:  +90.000 Degrees
+\i (00:30:08) pick grid 9572.37 9746.65
+\t (00:30:08) last pick:  9600.00 9700.00
+\i (00:30:09) setwindow form.plc_manual
+\i (00:30:09) FORM plc_manual tree  Y1 'Components by refdes' 
+\i (00:30:09) FORM plc_manual tree 'MULTISEL YES' Y1 'Components by refdes' 
+\t (00:30:09) Placing Y1 / CRYSTAL_XTAL_ECS-160-20-4X_CRYSTAL / XTAL_ECS-160-20-4X on Top.
+\i (00:30:13) setwindow pcb
+\i (00:30:13) pick grid 10197.49 9348.51
+\t (00:30:13) last pick:  10200.00 9300.00
+\i (00:30:16) setwindow form.plc_manual
+\i (00:30:16) FORM plc_manual done  
+\i (00:30:16) setwindow pcb
+\i (00:30:16) generaledit 
+\i (00:30:33) drag_start grid 8805.85 8563.38
+\i (00:30:33) drag_stop 9702.60 8284.31
+\i (00:30:34) prepopup 9386.32 8395.94
+\i (00:30:38) pick grid 9765.86 8195.01
+\t (00:30:38) last pick:  9800.00 8200.00
+\i (00:30:39) pick grid 9349.11 8351.29
+\t (00:30:39) last pick:  9300.00 8400.00
+\i (00:30:40) drag_start grid 10044.93 8470.36
+\i (00:30:40) drag_stop 8709.10 8314.08
+\i (00:30:41) drag_start grid 9155.62 8410.82
+\i (00:30:42) drag_stop grid 8712.82 8749.43
+\i (00:30:42) prepopup 9230.04 8418.27
+\i (00:30:50) pop dyn_option_select 'Super filter@:@Symbol' 
+\i (00:30:52) prepopup 9207.71 8388.50
+\i (00:30:55) pop dyn_option_select @:@Move 
+\i (00:30:55) move 
+\t (00:30:55) last pick:  9200.00 8400.00
+\t (00:30:55) last pick:  8900.00 8400.00
+\t (00:30:55) Moving J2 / CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 / SAMTEC_DW-07-10-G-S-630.
+\t (00:30:55) Pick new location for the element(s).
+\i (00:30:58) pick grid 8217.93 9251.76
+\t (00:30:58) last pick:  8200.00 9300.00
+\i (00:30:58) generaledit 
+\i (00:30:59) pick grid 7715.60 10100.14
+\t (00:30:59) last pick:  7700.00 10100.00
+\i (00:30:59) drag_start grid 7715.60 10100.14
+\i (00:30:59) move 
+\t (00:30:59) last pick:  7700.00 10200.00
+\t (00:30:59) Moving J6 / CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 / SAMTEC_DW-07-10-G-S-630.
+\t (00:30:59) Pick new location for the element(s).
+\i (00:31:01) drag_stop grid 9140.73 8678.73
+\i (00:31:02) generaledit 
+\i (00:31:02) prepopup 9133.29 8656.41
+\i (00:31:04) pop dyn_option_select @:@Spin 
+\i (00:31:04) spin 
+\t (00:31:04) Moving J6 / CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 / SAMTEC_DW-07-10-G-S-630.
+\i (00:31:10) iangle 90.000
+\t (00:31:10) last angle:  0.000 Degrees
+\i (00:31:10) generaledit 
+\i (00:31:11) drag_start grid 9293.29 8675.01
+\i (00:31:11) move 
+\t (00:31:11) last pick:  9100.00 8700.00
+\t (00:31:11) Moving J6 / CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 / SAMTEC_DW-07-10-G-S-630.
+\t (00:31:11) Pick new location for the element(s).
+\i (00:31:14) drag_stop grid 8906.31 8593.15
+\i (00:31:14) generaledit 
+\i (00:31:14) pick grid 10022.60 8652.69
+\t (00:31:14) last pick:  10000.00 8700.00
+\i (00:31:15) zoom in 1 
+\i (00:31:15) setwindow pcb
+\i (00:31:15) zoom in 8965.85 8693.62
+\i (00:31:15) trapsize 930
+\i (00:31:15) zoom in 1 
+\i (00:31:15) setwindow pcb
+\i (00:31:15) zoom in 8965.85 8693.62
+\i (00:31:15) trapsize 465
+\i (00:31:23) zoom out 1 
+\i (00:31:23) setwindow pcb
+\i (00:31:23) zoom out 9096.09 8816.41
+\i (00:31:23) trapsize 930
+\i (00:31:24) zoom out 1 
+\i (00:31:24) setwindow pcb
+\i (00:31:24) zoom out 9224.46 8775.48
+\i (00:31:24) trapsize 1860
+\i (00:31:24) zoom in 1 
+\i (00:31:24) setwindow pcb
+\i (00:31:24) zoom in 9938.88 8794.09
+\i (00:31:24) trapsize 930
+\i (00:31:26) pick grid 9200.27 8591.30
+\t (00:31:26) last pick:  9200.00 8600.00
+\i (00:31:27) drag_start grid 9200.27 8589.44
+\i (00:31:27) move 
+\t (00:31:27) last pick:  8900.00 8600.00
+\t (00:31:27) Moving J6 / CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 / SAMTEC_DW-07-10-G-S-630.
+\t (00:31:27) Pick new location for the element(s).
+\i (00:31:30) drag_stop grid 8910.03 8479.67
+\i (00:31:30) generaledit 
+\i (00:31:31) pick grid 9471.90 8853.63
+\t (00:31:31) last pick:  9500.00 8900.00
+\i (00:31:34) open 
+\e (00:31:34) Do you want to save the changes you made to ozone_motors_v2.brd?
+\i (00:31:41) fillin yes 
+\i (00:31:48) fillin "D:/orcad projects/documentation/project_1/Board/first_project_v2.brd"
+\i (00:31:48) cd "D:/orcad projects/documentation/project_1/Board"
+\t (00:31:48) Opening existing design...
+\i (00:31:48) trapsize 4003
+\i (00:31:54) fillin yes 
+\i (00:31:56) fillin "menu_cancel"
+\t (00:31:56)     Journal end - Tue May 25 08:44:51 2021

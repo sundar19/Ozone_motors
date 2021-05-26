@@ -1,0 +1,321 @@
+
+(EDIF
+  (rename AP2112K_45_33TRG1 "AP2112K-33TRG1")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2018 07 07 14 28 38)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename AP2112K_45_33TRG1 "AP2112K-33TRG1")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename AP2112K_45_33TRG1 "AP2112K-33TRG1")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "AP2112K-33TRG1"))
+          (port
+            (rename VIN "VIN")
+            (designator "1")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND "GND")
+            (designator "2")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename EN "EN")
+            (designator "3")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VOUT "VOUT")
+            (designator "5")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -50000 -30000) (pt 50000 30000)))
+            (portImplementation
+              (name GND
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -20000)
+                    (pt 30000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VIN
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 20000)
+                    (pt -30000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VOUT
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 20000)
+                    (pt 30000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name EN
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -46062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -50000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -50000 0)
+                    (pt -30000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 30000) (pt 30000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 30000) (pt 30000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -30000) (pt -30000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -30000) (pt -30000 30000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -30216 34098))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -30125 -45885))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "SOT95P285X140-5N"))
+            (property (rename NC "NC") (string "4"))
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "AP2112K-3.3TRG1"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "0.19 USD"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "SOT-753 Diodes Inc."))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Diodes Inc."))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Good"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5
+"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

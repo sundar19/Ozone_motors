@@ -1,0 +1,27 @@
+"TELEMETRY  Revised: Wednesday, May 26, 2021"			
+          Revision: 			
+			
+OZONE MOTORS			
+			
+			
+			
+			
+			
+"Bill Of Materials            May 26,2021      12:48:02"	Page1		
+			
+Item	Quantity	Reference	Part
+______________________________________________			
+			
+1	2	"C1,C2"	22pF
+2	2	"C3,C6"	10uF
+3	4	"C4,C5,C7,C8"	0.1u
+4	2	"D1,D2"	LED
+5	3	"J1,J3,J4"	CON2
+6	3	"J2,J6,J7"	CON7
+7	1	J5	CON9
+8	1	J8	PWR_MCP
+9	1	J9	PWR_TJA
+10	1	U1	MCP2515-ESO
+11	1	U2	TJA1050T
+12	1	Y1	CRYSTAL
+13	4	"1K1,1K2,10K1,120R1"	RESISTOR

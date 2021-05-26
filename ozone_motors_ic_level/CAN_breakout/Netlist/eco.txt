@@ -1,0 +1,223 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  d:/orcad projects/documentation/project_2/ozone_motors_v2.brd               |
+|                                                    Tue May 25 08:12:54 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3.3V         pins ADDED TO this new net
+                                 1K2.1          10K1.1         C3.1           
+                                 C4.1           C5.1           J2.01          
+                                 J5.01          J7.03          J8.1           
+                                 U1.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  5V           pins ADDED TO this new net
+                                 1K1.1          C6.1           C7.1           
+                                 C8.1           J7.01          J9.1           
+                                 U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_RX       pins ADDED TO this new net
+                                 U1.2           U2.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_TX       pins ADDED TO this new net
+                                 U1.1           U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CS           pins ADDED TO this new net
+                                 J2.03          J7.07          U1.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D0/A0/DAC    pins ADDED TO this new net
+                                 J5.05          J6.01          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D1/A1        pins ADDED TO this new net
+                                 J5.06          J6.02          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D2/A2        pins ADDED TO this new net
+                                 J5.07          J6.03          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D3/A3        pins ADDED TO this new net
+                                 J5.08          J6.04          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D4/A4/SDA    pins ADDED TO this new net
+                                 J5.03          J6.05          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D5/A5/SCL    pins ADDED TO this new net
+                                 J5.04          J6.06          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           C3.2           
+                                 C4.2           C5.2           C6.2           
+                                 C7.2           C8.2           D1.1           
+                                 D2.1           J2.02          J5.02          
+                                 J7.02          J8.2           J9.2           
+                                 U1.9           U2.2           U2.8           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  d:/orcad projects/documentation/project_2/ozone_motors_v2.brd               |
+|                                                    Tue May 25 08:12:54 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  INT          pins ADDED TO this new net
+                                 J2.07          U1.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MISO         pins ADDED TO this new net
+                                 J2.04          J7.05          U1.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOSI         pins ADDED TO this new net
+                                 J2.05          J7.04          U1.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01226       pins ADDED TO this new net
+                                 120R1.1        J3.1           J4.1           
+                                 U2.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01238       pins ADDED TO this new net
+                                 J1.2           J3.2           J4.2           
+                                 U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01258       pins ADDED TO this new net
+                                 120R1.2        J1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02673       pins ADDED TO this new net
+                                 1K2.2          D2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02677       pins ADDED TO this new net
+                                 1K1.2          D1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSC1         pins ADDED TO this new net
+                                 C1.1           U1.8           Y1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSC2         pins ADDED TO this new net
+                                 C2.1           U1.7           Y1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins ADDED TO this new net
+                                 10K1.2         U1.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCK          pins ADDED TO this new net
+                                 J2.06          J7.06          U1.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TX           pins ADDED TO this new net
+                                 J5.09          J6.07          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  d:/orcad projects/documentation/project_2/ozone_motors_v2.brd               |
+|                                                    Tue May 25 08:12:54 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP NP_CAP300_CAP NP
+ CAP_CAP196_CAP
+ CON2_JUMPER2_CON2
+ CON2_JUMPER2_PWR_MCP
+ CON2_JUMPER2_PWR_TJA
+ CON7_0_SAMTEC_DW-07-10-G-S-630_CON7
+ CON9_2_SAMTEC_DW-09-15-T-S-400_CON9
+ CRYSTAL_XTAL_ECS-160-20-4X_CRYSTAL
+ LED_CPCYL1D150LS125031_LED
+ MCP2515-ESO_0_SOIC127P1030X265-18N_MCP2515-ESO
+ RESISTOR_RES400_RESISTOR
+ TJA1050T_SOP8_TJA1050T
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  d:/orcad projects/documentation/project_2/ozone_motors_v2.brd               |
+|                                                    Tue May 25 08:12:54 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1K1                 RESISTOR_RES400_RESISTOR 
+ 1K2                 RESISTOR_RES400_RESISTOR 
+ 10K1                RESISTOR_RES400_RESISTOR 
+ 120R1               RESISTOR_RES400_RESISTOR 
+ C1                  CAP NP_CAP300_CAP NP  
+ C2                  CAP NP_CAP300_CAP NP  
+ C3                  CAP_CAP196_CAP        
+ C4                  CAP NP_CAP300_CAP NP  
+ C5                  CAP NP_CAP300_CAP NP  
+ C6                  CAP_CAP196_CAP        
+ C7                  CAP NP_CAP300_CAP NP  
+ C8                  CAP NP_CAP300_CAP NP  
+ D1                  LED_CPCYL1D150LS125031_LED 
+ D2                  LED_CPCYL1D150LS125031_LED 
+ J1                  CON2_JUMPER2_CON2     
+ J2                  CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 
+ J3                  CON2_JUMPER2_CON2     
+ J4                  CON2_JUMPER2_CON2     
+ J5                  CON9_2_SAMTEC_DW-09-15-T-S-400_CON9 
+ J6                  CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 
+ J7                  CON7_0_SAMTEC_DW-07-10-G-S-630_CON7 
+ J8                  CON2_JUMPER2_PWR_MCP  
+ J9                  CON2_JUMPER2_PWR_TJA  
+ U1                  MCP2515-ESO_0_SOIC127P1030X265-18N_MCP2515-ESO 
+ U2                  TJA1050T_SOP8_TJA1050T 
+ Y1                  CRYSTAL_XTAL_ECS-160-20-4X_CRYSTAL 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  d:/orcad projects/documentation/project_2/ozone_motors_v2.brd               |
+|                                                    Tue May 25 08:12:54 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1K1.2                          PRIM_FILE      .\pstchip.dat
+ 1K2.2                          PRIM_FILE      .\pstchip.dat
+ 10K1.2                         PRIM_FILE      .\pstchip.dat
+ 120R1.2                        PRIM_FILE      .\pstchip.dat
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J2.07                          PRIM_FILE      .\pstchip.dat
+ J3.2                           PRIM_FILE      .\pstchip.dat
+ J4.2                           PRIM_FILE      .\pstchip.dat
+ J5.09                          PRIM_FILE      .\pstchip.dat
+ J6.07                          PRIM_FILE      .\pstchip.dat
+ J7.07                          PRIM_FILE      .\pstchip.dat
+ J8.2                           PRIM_FILE      .\pstchip.dat
+ J9.2                           PRIM_FILE      .\pstchip.dat
+ U1.9                           PRIM_FILE      .\pstchip.dat
+ U2.5                           PRIM_FILE      .\pstchip.dat
+ Y1.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  d:/orcad projects/documentation/project_2/ozone_motors_v2.brd               |
+|                                                    Tue May 25 08:12:54 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      89                                        |
+|       Comp definitions added:      12                                        |
+|       Components added      :      26                                        |
+|       Slot property added   :      26                                        |
+|                                                                              |
+|   Total ECO changes reported:     153                                        |
+|------------------------------------------------------------------------------|

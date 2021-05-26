@@ -1,0 +1,112 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S015 (3921426)  [2/23/2021]-[05/25/21]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\acclerometer_v1.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\acclerometer_v1.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "D:\ORCAD PROJECTS\DOCUMENTATION\PROJECT_2\DESIGN1.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "D:\ORCAD PROJECTS\DOCUMENTATION\PROJECT_2\DESIGN1.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File "..\project_2\design1.bom"
+      (Type "Report")
+      (DisplayName "..\project_2\design1.bom")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (GND
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AP2112K-33TRG1
+      (FullPartName "AP2112K-33TRG1.Normal")
+      (LibraryName
+         "D:\ORCAD PROJECTS\DOCUMENTATION\PROJECT_3\LDO_3.3V\AP2112K-33TRG1.OLB")
+      (DeviceIndex "0"))
+    (LD1117/DD
+      (FullPartName "LD1117/DD.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (MPU6050
+      (FullPartName "MPU6050.Normal")
+      (LibraryName
+         "D:\ORCAD PROJECTS\DOCUMENTATION\PROJECT_3\MPU6050\MPU6050.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\OrCad Projects\Documentation\project_3\ldo_3.3v")
+  (MPSSessionName "abhin")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 613"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 943 24 631")
+        (Scroll "-70 -3")
+        (Zoom "79")
+        (Occurrence "/"))
+      (Path "D:\ORCAD PROJECTS\DOCUMENTATION\PROJECT_3\ACCLEROMETER_V1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

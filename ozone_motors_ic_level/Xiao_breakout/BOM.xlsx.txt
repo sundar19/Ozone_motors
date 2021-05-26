@@ -1,0 +1,32 @@
+"XIAO_MC  Revised: Wednesday, May 26, 2021"			
+          Revision: 			
+			
+OZONE MOTORS			
+			
+			
+			
+			
+			
+"Bill Of Materials            May 26,2021      12:50:19"	Page1		
+			
+Item	Quantity	Reference	Part
+______________________________________________			
+			
+1	1	C1	4.7u
+2	2	"C2,C3"	12pF
+3	1	C4	1uF
+4	4	"C5,C6,C8,C9"	100nF
+5	1	C7	1nF
+6	1	C10	10nF
+7	1	D1	DIODE
+8	4	"D2,D3,D4,D5"	LED
+9	1	J1	USB4085-GF-A_REVA
+10	2	"J2,J3"	CON7
+11	1	J4	CON2
+12	2	"R1,R2"	5.7K
+13	4	"R3,R4,R5,R6"	1K
+14	1	R7	RESISTOR
+15	1	SW1	RESET
+16	1	U1	ATSAMD21G17D-MUT
+17	1	U2	LDO 3.3V
+18	1	Y1	32.768KHZ
