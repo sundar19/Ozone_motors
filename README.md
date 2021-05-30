@@ -1,4 +1,4 @@
-# Ozone_motors
+# Ozone_Motors
 Project details
 
 Arduino_sensor_nxp(w_0 tr) Arduino <===> NXP (without transceiver both dummy and sensor values) 
