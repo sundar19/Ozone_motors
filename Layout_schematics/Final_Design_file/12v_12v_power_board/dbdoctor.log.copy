@@ -1,0 +1,27 @@
+<HTML><HEAD><STYLE TYPE="text/css">.errorMessage { color:darkred; font-weight:bold; font-style:italic; text-decoration:underline; }</STYLE></HEAD><BODY><PRE>
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : POWER.brd                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jun 04 15:04:03 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR IN SHAPE (no segment)
+  class = PACKAGE GEOMETRY
+  subclass = SILKSCREEN_TOP 
+  <b><i><font color="darkred">WARNING(SPMHA1-62)</i></b></font>: Illegal parent identifier.
+   Error was fixed.
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:01
+
+0 warnings, 1 errors detected, 1 errors  fixed.
+</PRE>
+</BODY></HTML>

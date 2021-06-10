@@ -1,0 +1,18 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Sun May 16 14:51:58 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=13144 CPUs=8
+\t (00:00:00) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Database opened: D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/MCP2515-E_SO/SOIC127P1030X265-18N.dra
+\i (00:00:04) trapsize 890
+\i (00:00:04) trapsize 869
+\i (00:00:04) trapsize 893
+\i (00:00:05) trapsize 749
+\i (00:00:05) trapsize 1204
+\i (00:00:06) generaledit 
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 5.8628 0.8307
+\i (00:00:06) trapsize 2408
+\i (00:00:08) exit 
+\t (00:00:08)     Journal end - Sun May 16 14:52:06 2021

@@ -1,0 +1,350 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001May-20-2021 at 16:40:47 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SENSOR';
+ POST_TIME='Sep 10 2012 04:46:09';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_0603_22PF':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62491@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62491@discrete.\cap np.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62491@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_0603_22PF':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62507@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62507@discrete.\cap np.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62507@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62875@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62875@discrete.\cap.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62875@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62891@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62891@discrete.\cap np.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62891@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62907@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62907@discrete.\cap np.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62907@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62291@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62291@discrete.\cap np.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62291@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62307@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62307@discrete.\cap np.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62307@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_1_LEDC1608X65N_LED':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62415@4G_MODULE.LED_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62415@\4g_module\.\led_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62415@\4g_module\.\led_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON7_0_SAMTEC_DW-07-10-G-S-630_':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS15875@SENSOR.CON7_0.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins15875@sensor.\con7_0.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins15875@sensor.\con7_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON7_3_SAMTEC_DW-07-10-G-S-630_':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS27712@ACCELEROMETERO.CON7_3.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins27712@accelerometero.\con7_3.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins27712@accelerometero.\con7_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON5_0_JUMPER5_TEMP_HUMID':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS28032@SENSOR.CON5_0.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins28032@sensor.\con5_0.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins28032@sensor.\con5_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON15_1_TE_1-103239-5_ARDUINO N':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS63712@SENSOR.CON15_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins63712@sensor.\con15_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins63712@sensor.\con15_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON15_1_TE_1-103239-5_ARDUINO N':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS63754@SENSOR.CON15_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins63754@sensor.\con15_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins63754@sensor.\con15_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON2_0_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62747@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62747@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62747@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62731@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62731@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62731@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'CON3_1_PHOENIX_1985836_CON3':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS78490@ACCELEROMETERO.CON3_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins78490@accelerometero.\con3_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins78490@accelerometero.\con3_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62667@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62667@analog.\r.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62667@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_0603_1K':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62923@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62923@analog.\r.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62923@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_0603_0K':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS80189@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins80189@analog.\r.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins80189@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_0603_0K':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS80215@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins80215@analog.\r.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins80215@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_0603_0K':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS80241@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins80241@analog.\r.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins80241@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_0603_120R':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62787@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62787@analog.\r.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62787@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS75463@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins75463@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins75463@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS75865@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins75865@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins75865@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW3 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS76049@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins76049@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins76049@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW4 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS76097@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins76097@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins76097@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW5 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS76347@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins76347@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins76347@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW6 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS76395@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins76395@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins76395@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW7 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS76427@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins76427@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins76427@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW8 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS76475@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins76475@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins76475@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW9 'CON2_1_HDR_1X2_CON2':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS82929@SENSOR.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins82929@sensor.\con2_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins82929@sensor.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'MCP2515_0_SOIC127P1030X265-18N_':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62367@ACCELEROMETERO.MCP2515_0.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62367@accelerometero.\mcp2515_0.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62367@accelerometero.\mcp2515_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'TPS563200_1_SOP8_TJA1050':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62435@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.TPS563200_1.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62435@evse_level2_rev2_25_apr_18_knts1.\tps563200_1.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62435@evse_level2_rev2_25_apr_18_knts1.\tps563200_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_0_XTAL_ECS-080-20-5PX-T':;
+
+SECTION_NUMBER 1
+ '@SENSOR.SCHEMATIC1(SCH_1):INS62463@ACCELEROMETERO.CRYSTAL_0.NORMAL(CHIPS)':
+ C_PATH='@sensor.schematic1(sch_1):ins62463@accelerometero.\crystal_0.normal\(chips)',
+ P_PATH='@sensor.schematic1(sch_1):page1_ins62463@accelerometero.\crystal_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

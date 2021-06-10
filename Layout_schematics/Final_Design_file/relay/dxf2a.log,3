@@ -1,0 +1,19 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+done.
+NOTE: Ignoring unsupported element 3DSOLID on line 2002.
+NOTE: Ignoring unsupported element 3DSOLID on line 2024.
+NOTE: Ignoring unsupported element 3DSOLID on line 2046.
+NOTE: Ignoring unsupported element 3DSOLID on line 2068.
+Layer conversion file: logo dxf_l.cnv
+DXF file: logo dxf.dxf
+BRD file: #Taaaaad29388.tmp
+Update existing design?: YES
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILS
+Design precision: 4
+dxf2a complete.

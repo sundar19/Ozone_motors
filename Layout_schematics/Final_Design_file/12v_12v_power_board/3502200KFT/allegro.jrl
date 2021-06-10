@@ -1,0 +1,141 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Fri Jun 04 18:46:25 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=11360 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/3502200KFT/RESC5025X120N.dra
+\i (00:00:00) trapsize 2352
+\i (00:00:00) trapsize 2299
+\i (00:00:01) trapsize 2361
+\i (00:00:01) trapsize 1982
+\i (00:00:01) trapsize 2838
+\i (00:00:01) generaledit 
+\i (00:00:02) zoom in 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom in -1.2302 0.6443
+\i (00:00:02) trapsize 1419
+\i (00:00:03) dimension edit 
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -1.7694 1.4673
+\i (00:00:04) trapsize 709
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -1.7977 1.4532
+\i (00:00:04) trapsize 355
+\i (00:00:04) prepopup -2.5285 2.1414
+\i (00:00:06) pop dyn_option_select '@:@Linear dimension' 
+\t (00:00:06) Pick an element or point to dimension ...
+\i (00:00:06) prepopup -2.5710 2.6877
+\i (00:00:07) pop dyn_option_select @:@Parameters 
+\i (00:00:09) setwindow form.draft_parms
+\i (00:00:09) FORM draft_parms unit_metric NO 
+\i (00:00:09) FORM draft_parms jis_standard YES 
+\i (00:00:10) FORM draft_parms done  
+\w (00:00:10) WARNING(SPMHDI-45): Applying global parameter changes to existing dimensioning ...
+\t (00:00:10) Pick an element or point to dimension ...
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -2.9400 1.5242
+\i (00:00:11) trapsize 177
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -2.9399 1.5278
+\i (00:00:11) trapsize 89
+\i (00:00:12) pick grid -3.1669 1.6059
+\t (00:00:12) last pick:  -2.5400  2.5400
+\t (00:00:12) First point found ... pick the second point.
+\w (00:00:12) WARNING(SPMHDI-89): Dimension point at (-2.5400, 2.5400) is not being associated with an object.
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out -2.9594 1.6875
+\i (00:00:13) trapsize 177
+\i (00:00:13) prepopup -3.2928 1.7229
+\i (00:00:15) pop dyn_option_select @:@Parameters 
+\i (00:00:17) setwindow form.draft_parms
+\i (00:00:17) FORM draft_parms apply  
+\i (00:00:17) FORM draft_parms done  
+\t (00:00:18) Pick an element or point to dimension ...
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in -3.3425 1.3895
+\i (00:00:18) trapsize 89
+\i (00:00:20) grid toggle 
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -2.4911 1.7832
+\i (00:00:21) trapsize 177
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -2.4946 1.7549
+\i (00:00:21) trapsize 355
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -2.4946 1.7478
+\i (00:00:21) trapsize 709
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in -2.4945 2.5992
+\i (00:00:22) trapsize 355
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in -2.4945 2.6063
+\i (00:00:22) trapsize 177
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out -2.6009 2.2977
+\i (00:00:23) trapsize 355
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out -2.4519 2.3616
+\i (00:00:23) trapsize 709
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -2.3384 2.7022
+\i (00:00:25) trapsize 355
+\i (00:00:26) pick grid -2.5583 2.5390
+\t (00:00:26) last pick:  -2.5400  2.5400
+\t (00:00:26) First point found ... pick the second point.
+\w (00:00:26) WARNING(SPMHDI-89): Dimension point at (-2.5400, 2.5400) is not being associated with an object.
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 1.6276 2.1914
+\i (00:00:28) trapsize 709
+\i (00:00:30) pick grid 2.5215 2.6028
+\t (00:00:30) last pick:  2.5400  2.5400
+\t (00:00:30) Pick location for the dimension value.
+\w (00:00:30) WARNING(SPMHDI-89): Dimension point at (2.5400, 2.5400) is not being associated with an object.
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 0.5775 1.8650
+\i (00:00:31) trapsize 1419
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 6.1767 1.2406
+\i (00:00:31) trapsize 2838
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 36.3434 8.1363
+\i (00:00:31) trapsize 2838
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 2.6293 2.6308
+\i (00:00:32) trapsize 1419
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 2.6294 2.6024
+\i (00:00:32) trapsize 709
+\i (00:00:33) prepopup 3.4240 3.3686
+\i (00:00:34) cancel 
+\i (00:00:34) generaledit 
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out 6.2194 1.6659
+\i (00:00:35) trapsize 1419
+\i (00:01:26) exit 
+\e (00:01:26) Do you want to save the changes you made to RESC5025X120N.dra?
+\e (00:01:29) Window is disabled, command may not be allowed: exit
+\i (00:01:30) fillin no 
+\t (00:01:30)     Journal end - Fri Jun 04 18:47:55 2021

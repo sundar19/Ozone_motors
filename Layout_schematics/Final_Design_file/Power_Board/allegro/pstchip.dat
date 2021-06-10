@@ -1,0 +1,486 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001May-26-2021 at 19:19:22}
+primitive 'CAP NP_0805_4.7UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0805';
+    VALUE='4.7UF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_0603_0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0603';
+    VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_1206_100UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='1206';
+    VALUE='100UF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_1206_0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='1206';
+    VALUE='0.1UF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_0603_150PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0603';
+    VALUE='150pF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_0603_1500PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0603';
+    VALUE='1500pF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_0603_0.01UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0603';
+    VALUE='0.01uF';
+  end_body;
+end_primitive;
+primitive 'C_CAPPM7343X310N_220UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='CAPPM7343X310N';
+    VALUE='220uf';
+  end_body;
+end_primitive;
+primitive 'CAP NP_0805_0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0805';
+    VALUE='0.1UF';
+  end_body;
+end_primitive;
+primitive 'DIODE SCHOTTKY_1_DIOM5226X240N_';
+  pin
+    'A':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE SCHOTTKY_1';
+    JEDEC_TYPE='DIOM5226X240N';
+    VALUE='B340A-13-F';
+  end_body;
+end_primitive;
+primitive 'DIODE SCHOTTKY_2_DIOM5226X240N_';
+  pin
+    'A':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE SCHOTTKY_2';
+    JEDEC_TYPE='DIOM5226X240N';
+    VALUE='MRBS340';
+  end_body;
+end_primitive;
+primitive 'LED_8_LEDSC160X80X70L45N_GREEN';
+  pin
+    'A':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED_8';
+    JEDEC_TYPE='LEDSC160X80X70L45N';
+    VALUE='GREEN';
+  end_body;
+end_primitive;
+primitive 'LED_9_LEDSC160X80X70L45N_BLUE';
+  pin
+    'A':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED_9';
+    JEDEC_TYPE='LEDSC160X80X70L45N';
+    VALUE='Blue';
+  end_body;
+end_primitive;
+primitive 'LED_10_LEDSC160X80X70L45N_RED';
+  pin
+    'A':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED_10';
+    JEDEC_TYPE='LEDSC160X80X70L45N';
+    VALUE='RED';
+  end_body;
+end_primitive;
+primitive 'CON2_HDR_1X2_HDR1X2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='hdr_1x2';
+    VALUE='HDR1x2';
+  end_body;
+end_primitive;
+primitive 'CON4_0_TE_1546215-4_POWER';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON4_0';
+    JEDEC_TYPE='TE_1546215-4';
+    VALUE='Power';
+  end_body;
+end_primitive;
+primitive 'CON2_0_1725656_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2_0';
+    JEDEC_TYPE='1725656';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR_INDM1250X1250X600_22UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR';
+    JEDEC_TYPE='INDM1250X1250X600';
+    VALUE='22uH';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR_INDM1250X1250X600_15UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR';
+    JEDEC_TYPE='INDM1250X1250X600';
+    VALUE='15uH';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_7_0603_NC';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR_7';
+    JEDEC_TYPE='0603';
+    VALUE='NC';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_7_0603_330';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR_7';
+    JEDEC_TYPE='0603';
+    VALUE='330';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_7_0603_1.2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR_7';
+    JEDEC_TYPE='0603';
+    VALUE='1.2K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_7_0603_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR_7';
+    JEDEC_TYPE='0603';
+    VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_7_0603_3.24K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR_7';
+    JEDEC_TYPE='0603';
+    VALUE='3.24K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_7_0603_0 OHM';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR_7';
+    JEDEC_TYPE='0603';
+    VALUE='0 OHM';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_7_0603_549';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR_7';
+    JEDEC_TYPE='0603';
+    VALUE='549';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_7_0603_5.9K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR_7';
+    JEDEC_TYPE='0603';
+    VALUE='5.9K';
+  end_body;
+end_primitive;
+primitive 'TPS5430DDA_0_SOIC127P600X170-9N';
+  pin
+    'VIN':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'ENA':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'NC_3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'VSNS':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'PH':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'BOOT':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TPS5430DDA_0';
+    JEDEC_TYPE='SOIC127P600X170-9N';
+    VALUE='TPS5430DDA';
+  end_body;
+end_primitive;
+primitive 'TPS5430DDA_0_SOIC127P600X170-_1';
+  pin
+    'VIN':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'ENA':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'NC_3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'VSNS':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'PH':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'BOOT':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TPS5430DDA_0';
+    JEDEC_TYPE='SOIC127P600X170-9N';
+    VALUE='TPS5430DDA_0';
+  end_body;
+end_primitive;
+END.

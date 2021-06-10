@@ -1,0 +1,30 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Sun May 16 15:38:38 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=15916 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/DW-07-10-G-S-630/SAMTEC_DW-07-10-G-S-630.dra
+\i (00:00:01) trapsize 6216
+\i (00:00:01) trapsize 6074
+\i (00:00:01) trapsize 6240
+\i (00:00:01) trapsize 5237
+\i (00:00:01) trapsize 5237
+\i (00:00:02) generaledit 
+\i (00:00:02) zoom in 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom in -5.4131 -3.0505
+\i (00:00:02) trapsize 2618
+\i (00:00:02) zoom in 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom in -4.7847 8.3450
+\i (00:00:02) trapsize 1309
+\i (00:00:03) zoom out 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom out -0.7787 6.7478
+\i (00:00:03) trapsize 2618
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 4.6674 -1.5259
+\i (00:00:04) trapsize 1309
+\i (01:01:38) exit 
+\t (01:01:38)     Journal end - Sun May 16 16:40:16 2021

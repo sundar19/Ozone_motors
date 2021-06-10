@@ -1,0 +1,22 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Fri Jun 04 18:55:05 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=5160 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/ERJ-P06F3742V/RESC2012X70N.dra
+\i (00:00:01) trapsize 1448
+\i (00:00:01) trapsize 1415
+\i (00:00:01) trapsize 1454
+\i (00:00:01) trapsize 1220
+\i (00:00:01) trapsize 2010
+\i (00:00:02) generaledit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -0.2160 -2.8426
+\i (00:00:03) trapsize 1005
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -1.1514 -2.8426
+\i (00:00:03) trapsize 502
+\i (00:00:04) exit 
+\t (00:00:05)     Journal end - Fri Jun 04 18:55:09 2021

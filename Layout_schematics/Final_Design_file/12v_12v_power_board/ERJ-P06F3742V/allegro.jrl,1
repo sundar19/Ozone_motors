@@ -1,0 +1,18 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Fri Jun 04 18:54:51 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=12080 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\i (00:00:01) fillin no 
+\e (00:00:01) Failed to open design since it is locked - D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/ERJ-P06F3742V/RESC2012X70N.dra
+\t (00:00:01) Starting new design...
+\i (00:00:01) trapsize 815
+\i (00:00:01) trapsize 796
+\i (00:00:01) trapsize 818
+\i (00:00:02) trapsize 686
+\i (00:00:02) trapsize 1364
+\i (00:00:03) generaledit 
+\i (00:00:09) exit 
+\e (00:00:09) Do you want to save the changes you made to unnamed?
+\i (00:00:10) fillin no 
+\t (00:00:10)     Journal end - Fri Jun 04 18:55:01 2021

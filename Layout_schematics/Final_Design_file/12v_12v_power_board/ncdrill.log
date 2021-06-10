@@ -1,0 +1,58 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : #Taaaaax11524.tmp                             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jun 04 19:25:22 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING(SPMHMF-360): Design precision is greater than that of the drill output file data.
+ WARNING(SPMHMF-361): Data rounding errors are very possible.
+
+
+ Drill files being output to directory 'D:/Sankar/Personal/Final_Design_file/12v_12v_power_board' ...
+
+
+
+     'POWER-1-2.drl' created for holes connecting TOP and BOTTOM
+     -----------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  12.0000    3.0000/ 12.0000      PLATED        126
+            2.  47.2440    0.0000/  0.0000      PLATED          4
+            3. 120.0000    0.0000/  0.0000      PLATED          4
+
+     ---- Total holes:                                        134
+
+     ---- Total head travel:              2.61 feet (0.80 meters)
+

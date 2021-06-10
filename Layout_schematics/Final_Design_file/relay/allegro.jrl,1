@@ -1,0 +1,25 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Fri Jun 04 17:35:45 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=14204 CPUs=8
+\t (00:00:00) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Database opened: D:/Sankar/Personal/Final_Design_file/relay/Relay.brd
+\i (00:00:04) trapsize 64194
+\i (00:00:04) trapsize 62734
+\i (00:00:04) trapsize 64444
+\i (00:00:04) trapsize 54082
+\i (00:00:04) trapsize 54082
+\i (00:00:05) etchedit 
+\i (00:00:10) pdf out 
+\i (00:00:11) setwindow form.pdf_out
+\i (00:00:11) FORM pdf_out selectall  
+\i (00:00:12) FORM pdf_out export  
+\t (00:00:12) Starting Exporting PDF File...
+\t (00:00:14) PDF output completed.
+\i (00:00:19) FORM pdf_out cancel  
+\i (00:00:19) setwindow pcb
+\i (00:00:19) etchedit 
+\i (00:00:20) exit 
+\e (00:00:20) Do you want to save the changes you made to Relay.brd?
+\i (00:00:21) fillin no 
+\t (00:00:22)     Journal end - Fri Jun 04 17:36:07 2021

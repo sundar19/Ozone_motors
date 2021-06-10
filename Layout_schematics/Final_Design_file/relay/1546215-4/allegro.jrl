@@ -1,0 +1,18 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Mon May 24 15:54:57 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=11032 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: D:/Sankar/ozone_alice_relay/1546215-4/TE_1546215-4.dra
+\i (00:00:00) trapsize 3839
+\i (00:00:00) trapsize 3751
+\i (00:00:00) trapsize 3854
+\i (00:00:01) trapsize 3234
+\i (00:00:01) trapsize 5586
+\i (00:00:01) etchedit 
+\i (00:00:02) zoom in 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom in -6.7439 3.2606
+\i (00:00:02) trapsize 2793
+\i (00:00:03) exit 
+\t (00:00:03)     Journal end - Mon May 24 15:55:00 2021

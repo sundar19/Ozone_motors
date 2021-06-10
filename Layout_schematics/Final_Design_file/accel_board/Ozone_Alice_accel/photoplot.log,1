@@ -1,0 +1,463 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : ACCelero.brd                                  )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed May 19 18:23:27 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (2956.693 -216.535)
+           ... ignored.
+
+    WARNING: Segment with same start and end points at
+	(608.288 807.404) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2509.273 884.175) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1309.035 807.404) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(616.571 787.400) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1300.750 787.402) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2517.558 864.173) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.01600                                  DARK 
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.05394                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.05394                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.21654     x 0.07874      90.000 NO     DARK 
+  PAD SHAPE  PS_R191_60_D250           180.000 NO     DARK 
+  PAD SHAPE  PS_R91_93_D2500           180.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01600                                  DARK 
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.05394                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.05394                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSY_BOT >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/ASSY_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.05394                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.05394                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+
+     ASSY_BOT created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSY_TOP >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/ASSY_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00400                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.00945                                  DARK 
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.05394                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.05394                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.21654     x 0.07874      90.000 NO     DARK 
+  PAD SHAPE  PS_R191_60_D250           180.000 NO     DARK 
+  PAD SHAPE  PS_R91_93_D2500           180.000 NO     DARK 
+
+     ASSY_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < FAB_DWG >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/FAB_DWG.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+
+     FAB_DWG created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTE_TOP >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/PASTE_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  RECTANGLE  0.02362     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.21654     x 0.07874      90.000 NO     DARK 
+  PAD SHAPE  PS_R91_93_D2500           180.000 NO     DARK 
+  PAD SHAPE  PS_R191_60_D250           180.000 NO     DARK 
+
+     PASTE_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTE_BOT >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/PASTE_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+
+     PASTE_BOT created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILK_BOT >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/SILK_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+
+     SILK_BOT created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILK_TOP >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/SILK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00010                                  DARK 
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.00945                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.01968                                  DARK 
+
+     SILK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDER_BOT >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/SOLDER_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.05394                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.05394                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+
+     SOLDER_BOT created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDER_TOP >
+     TO FILE < D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/SOLDER_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.05394                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.05394                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.21654     x 0.07874      90.000 NO     DARK 
+  PAD SHAPE  PS_R191_60_D250           180.000 NO     DARK 
+  PAD SHAPE  PS_R91_93_D2500           180.000 NO     DARK 
+
+     SOLDER_TOP created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created with warnings
+        ASSY_BOT created with warnings
+        ASSY_TOP created with warnings
+        FAB_DWG created with warnings
+        PASTE_TOP created with warnings
+        PASTE_BOT created with warnings
+        SILK_BOT created with warnings
+        SILK_TOP created with warnings
+        SOLDER_BOT created with warnings
+        SOLDER_TOP created with warnings
+
+ ARTWORK had warnings

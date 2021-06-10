@@ -1,0 +1,45 @@
+(ExpressProject "Design5"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design5.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW TACT-SPST-2"
+      (FullPartName "SW TACT-SPST-2.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW TACT-SPST"
+      (FullPartName "SW TACT-SPST.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Jetson
+      (FullPartName "Jetson.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "MERAS")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"
+         "D:\Sankar\ozone_alice_sensors (1)\ozone_alice_sensors\design5.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory "D:\SPB_Data(1)\libs\jetson"))

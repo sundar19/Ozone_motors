@@ -1,0 +1,130 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Fri Jun 04 18:58:02 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=18128 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/POWER.brd
+\i (00:00:00) trapsize 3193
+\i (00:00:00) trapsize 3120
+\i (00:00:00) trapsize 3205
+\i (00:00:01) trapsize 2690
+\i (00:00:01) trapsize 2690
+\i (00:00:02) etchedit 
+\i (00:00:02) zoom out 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom out -629.894 608.787
+\i (00:00:02) trapsize 5380
+\i (00:00:02) zoom out 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom out -628.817 590.494
+\i (00:00:02) trapsize 10760
+\i (00:00:02) zoom out 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom out -628.818 590.495
+\i (00:00:02) trapsize 21520
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -499.700 603.406
+\i (00:00:03) trapsize 10760
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -624.514 711.005
+\i (00:00:05) trapsize 5380
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -624.514 711.005
+\i (00:00:05) trapsize 2690
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -693.376 765.342
+\i (00:00:06) trapsize 5380
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -668.629 554.450
+\i (00:00:06) trapsize 2690
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out -672.932 547.456
+\i (00:00:07) trapsize 5380
+\i (00:00:13) place manual 
+\i (00:00:14) setwindow form.plc_manual
+\i (00:00:14) FORM plc_manual tree 'MULTISEL YES' R3 'Components by refdes' 
+\w (00:00:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:14) Placing R3 / RESISTOR_0_RESC2012X70N_37.4K / RESC2012X70N on Top.
+\i (00:00:14) FORM plc_manual tree  R3 'Components by refdes' 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -708.440 582.964
+\i (00:00:15) trapsize 2690
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in -756.321 598.028
+\i (00:00:20) trapsize 1345
+\i (00:00:21) prepopup -756.321 598.028
+\i (00:00:22) rotate 
+\t (00:00:22) Spin the element(s).
+\i (00:00:24) iangle -180.000
+\t (00:00:24) last angle:  +180.000 Degrees
+\i (00:00:29) pick grid -752.824 599.373
+\t (00:00:29) last pick:  -752.836  599.368
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out -726.463 599.911
+\i (00:00:30) trapsize 2690
+\i (00:00:31) setwindow form.plc_manual
+\i (00:00:31) FORM plc_manual done  
+\i (00:00:31) setwindow pcb
+\i (00:00:31) etchedit 
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in -742.602 687.066
+\i (00:00:33) trapsize 1345
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out -751.747 631.922
+\i (00:00:36) trapsize 2690
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in -778.109 549.610
+\i (00:00:37) trapsize 1345
+\i (00:00:39) pick grid -750.941 624.660
+\t (00:00:39) last pick:  -750.974  624.652
+\i (00:00:40) move 
+\t (00:00:40) last pick:  -752.836  599.368
+\t (00:00:40) Moving R3 / RESISTOR_0_RESC2012X70N_37.4K / RESC2012X70N.
+\t (00:00:40) Pick new location for the element(s).
+\i (00:00:47) pick grid -752.555 599.105
+\t (00:00:47) last pick:  -752.542  599.074
+\i (00:00:47) etchedit 
+\i (00:00:49) save 
+\i (00:00:50) fillin yes 
+\i (00:00:51) etchedit 
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out -695.528 581.890
+\i (00:00:51) trapsize 2690
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out -688.533 578.123
+\i (00:00:53) trapsize 5380
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out -688.533 578.124
+\i (00:00:53) trapsize 10760
+\i (00:01:14) xrefdes R5 
+\i (00:01:14) xname_flush 
+\i (00:02:58) xname_flush 
+\i (00:07:42) xrefdes R5 
+\i (00:07:42) xname_flush 
+\i (00:07:44) xrefdes R5 
+\i (00:07:44) xname_flush 
+\i (00:10:03) xrefdes R4 
+\i (00:10:03) xname_flush 
+\i (00:11:13) xrefdes C5 
+\i (00:11:13) xname_flush 
+\i (00:16:18) xname_flush 
+\i (00:16:20) xNet Gnd 
+\i (00:16:20) xname_flush 
+\i (00:16:51) exit 
+\t (00:16:51)     Journal end - Fri Jun 04 19:14:53 2021

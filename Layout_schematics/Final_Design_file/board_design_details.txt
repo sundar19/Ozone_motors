@@ -1,0 +1,17 @@
+w-100x60mm -h-sensor
+
+width 80*40mm height-accelero
+
+
+W 62.01*60MM Height-12v-12v-2OZ-copper
+
+
+w-62.01*60mm-5vt03.3v-2oz-copper
+
+w-200*100-height mm
+
+
+
+
+
+

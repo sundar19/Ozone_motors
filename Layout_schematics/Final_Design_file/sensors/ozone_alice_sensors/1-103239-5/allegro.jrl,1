@@ -1,0 +1,38 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Wed May 19 18:51:31 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=22692 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: D:/Sankar/ozone_alice_sensors (1)/ozone_alice_sensors/1-103239-5/TE_1-103239-5.dra
+\i (00:00:00) trapsize 12240
+\i (00:00:00) trapsize 11962
+\i (00:00:00) trapsize 12288
+\i (00:00:01) trapsize 10312
+\i (00:00:01) trapsize 10312
+\i (00:00:01) generaledit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 30.9755 4.4556
+\i (00:00:03) trapsize 5156
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 30.6662 13.9429
+\i (00:00:03) trapsize 2578
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 30.4599 13.8914
+\i (00:00:03) trapsize 1289
+\i (00:00:03) zoom out 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom out 30.5373 13.3758
+\i (00:00:03) trapsize 2578
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 30.6920 13.1696
+\i (00:00:04) trapsize 5156
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -11.0724 -8.4346
+\i (00:00:04) trapsize 2578
+\i (00:00:05) exit 
+\t (00:00:06)     Journal end - Wed May 19 18:51:37 2021

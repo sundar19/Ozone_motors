@@ -1,0 +1,15 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Fri Jun 04 12:31:13 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=18116 CPUs=8
+\t (00:00:00) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Database opened: D:/Sankar/Personal/Final_Design_file/AcceleroMeter_con/AC_CON.brd
+\i (00:00:05) trapsize 20812
+\i (00:00:05) trapsize 20338
+\i (00:00:05) trapsize 20893
+\i (00:00:06) trapsize 17534
+\i (00:00:06) trapsize 17534
+\i (00:00:07) etchedit 
+\i (00:00:25) new 
+\i (00:00:54) newdrawfillin "593D106X9020B2TE3.dra" "Package Symbol"
+\t (00:00:54)     Journal end - Fri Jun 04 12:32:08 2021

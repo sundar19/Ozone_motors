@@ -1,0 +1,62 @@
+\t (00:00:01) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:01)     Journal start - Sat Jun 05 17:46:33 2021
+\t (00:00:01)         Host=DESKTOP-S4RBN91 User=MERAS Pid=428 CPUs=8
+\t (00:00:01) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Database opened: D:/Sankar/Personal/Final_Design_file/accel_board/Ozone_Alice_accel/ACCelero.brd
+\i (00:00:02) trapsize 1348
+\i (00:00:02) trapsize 1317
+\i (00:00:03) trapsize 1353
+\i (00:00:03) trapsize 1135
+\i (00:00:03) trapsize 1135
+\i (00:00:04) etchedit 
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 2076.666 62.631
+\i (00:00:04) trapsize 2271
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 2078.936 59.452
+\i (00:00:04) trapsize 4542
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 2101.646 83.977
+\i (00:00:04) trapsize 9084
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 2103.463 82.161
+\i (00:00:04) trapsize 18167
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 2110.729 74.893
+\i (00:00:04) trapsize 36335
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -607.093 743.450
+\i (00:00:05) trapsize 18167
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -607.093 743.450
+\i (00:00:05) trapsize 9084
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 41.479 378.288
+\i (00:00:06) trapsize 4542
+\i (00:00:06) prepopup -19.381 538.160
+\i (00:00:10) pop dyn_option_select 'Modify design padstack@:@All instances' 
+\i (00:00:11) mod padstack 
+\i (00:00:13) setwindow form.padedit
+\i (00:00:13) FORM padedit layers  
+\i (00:00:13) FORM padedit parameters  
+\i (00:00:17) FORM padedit units Millimeter 
+\i (00:00:18) fillin yes 
+\w (00:00:18) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:20) FORM padedit layers  
+\i (00:00:20) FORM padedit parameters  
+\i (00:00:24) FORM padedit layers  
+\i (00:00:26) FORM padedit parameters  
+\i (00:00:29) pse_exit
+\i (00:00:29) setwindow pcb
+\i (00:00:29) etchedit 
+\i (00:00:30) exit 
+\t (00:00:30)     Journal end - Sat Jun 05 17:47:03 2021

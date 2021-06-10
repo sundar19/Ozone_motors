@@ -1,0 +1,45 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Thu Jun 03 17:43:25 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=1968 CPUs=8
+\t (00:00:00) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Database opened: D:/Sankar/Personal/Final_Design_file/Power_Board/POWER.brd
+\i (00:00:04) trapsize 10406
+\i (00:00:04) trapsize 10169
+\i (00:00:04) trapsize 10446
+\i (00:00:04) trapsize 8767
+\i (00:00:04) trapsize 8767
+\i (00:00:05) generaledit 
+\i (00:00:07) xhilite 
+\i (00:00:07) xname_flush 
+\i (00:00:07) done 
+\i (00:00:08) generaledit 
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -226.662 1673.081
+\i (00:00:11) trapsize 17533
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -149.516 1602.950
+\i (00:00:11) trapsize 35066
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -30.292 1511.778
+\i (00:00:11) trapsize 70132
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in -2218.411 2128.939
+\i (00:00:12) trapsize 35066
+\i (00:00:16) pdf out 
+\i (00:00:18) setwindow form.pdf_out
+\i (00:00:18) FORM pdf_out selectall  
+\i (00:00:19) FORM pdf_out export  
+\t (00:00:19) Starting Exporting PDF File...
+\t (00:00:21) PDF output completed.
+\i (00:00:25) FORM pdf_out cancel  
+\i (00:00:25) setwindow pcb
+\i (00:00:25) generaledit 
+\i (00:00:31) exit 
+\e (00:00:31) Do you want to save the changes you made to POWER.brd?
+\i (00:00:32) fillin no 
+\t (00:00:32)     Journal end - Thu Jun 03 17:43:57 2021

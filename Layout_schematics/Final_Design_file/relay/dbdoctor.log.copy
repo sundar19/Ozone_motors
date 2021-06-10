@@ -1,0 +1,51 @@
+<HTML><HEAD><STYLE TYPE="text/css">.errorMessage { color:darkred; font-weight:bold; font-style:italic; text-decoration:underline; }</STYLE></HEAD><BODY><PRE>
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : Relay.brd                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon May 24 19:56:53 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR IN PAD STACK name = S_R191T60D2M191_60P191_60
+  <b><i><font color="darkred">ERROR(SPMHDB-254)</i></b></font>: Pad size does not match the extents of the pad shape.
+   Error was fixed.
+  Layer SOLDERMASK_TOP
+
+ERROR IN PAD STACK name = S_R191T60D2M191_60P191_60
+  <b><i><font color="darkred">ERROR(SPMHDB-254)</i></b></font>: Pad size does not match the extents of the pad shape.
+   Error was fixed.
+  Layer PASTEMASK_TOP
+
+ERROR IN PAD STACK name = S_R191T60D2M191_60P191_60
+  <b><i><font color="darkred">ERROR(SPMHDB-254)</i></b></font>: Pad size does not match the extents of the pad shape.
+   Error was fixed.
+  Layer TOP
+
+ERROR IN PAD STACK name = S_R91_93_D2500_M91_93_P91_9
+  <b><i><font color="darkred">ERROR(SPMHDB-254)</i></b></font>: Pad size does not match the extents of the pad shape.
+   Error was fixed.
+  Layer SOLDERMASK_TOP
+
+ERROR IN PAD STACK name = S_R91_93_D2500_M91_93_P91_9
+  <b><i><font color="darkred">ERROR(SPMHDB-254)</i></b></font>: Pad size does not match the extents of the pad shape.
+   Error was fixed.
+  Layer PASTEMASK_TOP
+
+ERROR IN PAD STACK name = S_R91_93_D2500_M91_93_P91_9
+  <b><i><font color="darkred">ERROR(SPMHDB-254)</i></b></font>: Pad size does not match the extents of the pad shape.
+   Error was fixed.
+  Layer TOP
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:01
+
+0 warnings, 6 errors detected, 6 errors  fixed.
+</PRE>
+</BODY></HTML>

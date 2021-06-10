@@ -1,0 +1,61 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Fri Jun 04 12:33:41 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=14832 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: D:/Sankar/Personal/Final_Design_file/AcceleroMeter_con/AC_CON.brd
+\i (00:00:01) trapsize 20812
+\i (00:00:02) trapsize 20338
+\i (00:00:02) trapsize 20893
+\i (00:00:02) trapsize 17534
+\i (00:00:02) trapsize 17534
+\i (00:00:04) etchedit 
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -210.423 559.361
+\i (00:00:04) trapsize 8767
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -210.423 559.361
+\i (00:00:04) trapsize 4383
+\i (00:00:05) prepopup -297.214 424.353
+\i (00:00:08) pop dyn_option_select 'Modify design padstack@:@Single instance' 
+\i (00:00:08) mod padstack 
+\i (00:00:12) setwindow form.padedit
+\i (00:00:12) FORM padedit layers  
+\i (00:00:15) FORM padedit parameters  
+\i (00:01:01) FORM padedit layers  
+\i (01:35:44) pse_exit
+\i (01:35:44) setwindow pcb
+\i (01:35:44) xhilite 
+\i (01:35:45) cvf_bitmap_chooser -1 
+\i (01:35:46) xname_flush 
+\e (01:35:46) No command active
+\i (01:35:46) done 
+\e (01:35:46) No command active
+\i (01:35:46) xhilite 
+\i (01:35:46) xname_flush 
+\i (01:35:46) done 
+\i (01:35:46) xdehilite 
+\i (01:35:46) xname_flush 
+\i (01:35:46) done 
+\i (01:35:46) xhilite 
+\i (01:35:46) xname_flush 
+\i (01:35:46) done 
+\i (01:35:46) xdehilite 
+\i (01:35:46) xname_flush 
+\i (01:35:46) done 
+\i (01:35:46) xhilite 
+\i (01:35:46) xname_flush 
+\i (01:35:46) done 
+\i (01:35:46) xdehilite 
+\i (01:35:46) xname_flush 
+\i (01:35:46) done 
+\i (01:35:46) xhilite 
+\i (01:35:46) xname_flush 
+\i (01:35:46) done 
+\i (01:35:46) etchedit 
+\i (01:35:47) exit 
+\e (01:35:47) Do you want to save the changes you made to AC_CON.brd?
+\i (01:35:49) fillin no 
+\t (01:35:49)     Journal end - Fri Jun 04 14:09:30 2021

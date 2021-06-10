@@ -1,0 +1,402 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : POWER.brd                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jun 04 18:28:24 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (190.157 -197.244)
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  RECTANGLE  0.03189     x 0.06299      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.09449      90.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709      90.000 NO     DARK 
+  RECTANGLE  0.13787     x 0.10287      90.000 NO     DARK 
+  RECTANGLE  0.16535     x 0.52362      90.000 NO     DARK 
+  PAD SHAPE  PS_R91_83_D5300           270.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSY_BOT >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/ASSY_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+
+     ASSY_BOT created.
+
+
+================================================================
+     PROCESSING FILM < ASSY_TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/ASSY_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  RECTANGLE  0.03189     x 0.06299      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.09449      90.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709      90.000 NO     DARK 
+  RECTANGLE  0.13787     x 0.10287      90.000 NO     DARK 
+  RECTANGLE  0.16535     x 0.52362      90.000 NO     DARK 
+  PAD SHAPE  PS_R91_83_D5300           270.000 NO     DARK 
+
+     ASSY_TOP created.
+
+
+================================================================
+     PROCESSING FILM < FAB_DWG >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/FAB_DWG.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+
+     FAB_DWG created.
+
+
+================================================================
+     PROCESSING FILM < PASTE_TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/PASTE_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  RECTANGLE  0.04528     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709      90.000 NO     DARK 
+  PAD SHAPE  PS_R91_83_D5300           270.000 NO     DARK 
+
+     PASTE_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTE_BOT >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/PASTE_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+
+     PASTE_BOT created.
+
+
+================================================================
+     PROCESSING FILM < SILK_BOT >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/SILK_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+
+     SILK_BOT created.
+
+
+================================================================
+     PROCESSING FILM < SILK_TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/SILK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00010                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.01968                                  DARK 
+
+     SILK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDER_BOT >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/SOLDER_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+
+     SOLDER_BOT created.
+
+
+================================================================
+     PROCESSING FILM < SOLDER_TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/12v_12v_power_board/SOLDER_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  RECTANGLE  0.03189     x 0.06299      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.09449      90.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.05709      90.000 NO     DARK 
+  RECTANGLE  0.13787     x 0.10287      90.000 NO     DARK 
+  RECTANGLE  0.16535     x 0.52362      90.000 NO     DARK 
+  PAD SHAPE  PS_R91_83_D5300           270.000 NO     DARK 
+
+     SOLDER_TOP created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created with warnings
+        ASSY_BOT created.
+        ASSY_TOP created.
+        FAB_DWG created.
+        PASTE_TOP created.
+        PASTE_BOT created.
+        SILK_BOT created.
+        SILK_TOP created.
+        SOLDER_BOT created.
+        SOLDER_TOP created.
+
+ ARTWORK finished

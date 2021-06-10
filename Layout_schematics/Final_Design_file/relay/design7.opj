@@ -1,0 +1,114 @@
+(ExpressProject "Design7"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design7.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\design7.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\design7.dsn")
+      (Path "Design Resources" ".\design7.dsn" "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1448 52 381")
+        (Scroll "-68 0")
+        (Zoom "60")
+        (Occurrence "/"))
+      (Path "D:\SANKAR\OZONE_ALICE_RELAY\DESIGN7.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2-CPU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1101 26 365")
+        (Scroll "0 350")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\SANKAR\OZONE_ALICE_RELAY\DESIGN7.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03-Relay_control")))
+  (PartMRUSelector
+    (ULN2003A
+      (FullPartName "ULN2003A.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ULN2002A
+      (FullPartName "ULN2002A.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (CON20
+      (FullPartName "CON20.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0"))
+    (jetson
+      (FullPartName "jetson.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY4.OLB")
+      (DeviceIndex "0"))
+    (cap_touch
+      (FullPartName "cap_touch.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\CAP_TOUCH\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BC547
+      (FullPartName "BC547.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (JSM-1A-12V-4
+      (FullPartName "JSM-1A-12V-4.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\RELAY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Jetson
+      (FullPartName "Jetson.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\JETSON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (chipkit
+      (FullPartName "chipkit.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\CHIPKIT\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (MPC5606B
+      (FullPartName "MPC5606B.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\MPC5606B\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TJA1050
+      (FullPartName "TJA1050.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\TJA1050\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (FTDI
+      (FullPartName "FTDI.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\FTDI\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (BluePill
+      (FullPartName "BluePill.Normal")
+      (LibraryName "D:\SPB_DATA(1)\LIBS\BLUEPILL\LIBRARY3.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\SPB_Data(1)\libs\jetson")
+  (MPSSessionName "MERAS"))

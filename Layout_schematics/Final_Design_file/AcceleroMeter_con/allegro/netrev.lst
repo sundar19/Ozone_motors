@@ -1,0 +1,104 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : AC_CON.brd                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri May 28 18:57:05 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'D:\SANKAR\ACCELEROMETER_CON\allegro';
+BOARD_DIRECTORY 'D:/Sankar/AcceleroMeter_con';
+OLD_BOARD_NAME 'D:/Sankar/AcceleroMeter_con/AC_CON.brd';
+NEW_BOARD_NAME 'D:/Sankar/AcceleroMeter_con/AC_CON.brd';
+
+CmdLine: netrev.exe -y 1 -i D:\SANKAR\ACCELEROMETER_CON\allegro D:\Sankar\AcceleroMeter_con\AC_CON.brd D:\Sankar\AcceleroMeter_con\AC_CON.brd
+
+------ Preparing to read pst files ------
+
+Starting to read D:/SANKAR/ACCELEROMETER_CON/allegro/pstchip.dat 
+   Finished reading D:/SANKAR/ACCELEROMETER_CON/allegro/pstchip.dat (00:00:00.04)
+Starting to read D:/SANKAR/ACCELEROMETER_CON/allegro/pstxprt.dat 
+   Finished reading D:/SANKAR/ACCELEROMETER_CON/allegro/pstxprt.dat (00:00:00.00)
+Starting to read D:/SANKAR/ACCELEROMETER_CON/allegro/pstxnet.dat 
+   Finished reading D:/SANKAR/ACCELEROMETER_CON/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/CADENCE/SPB_16.6/share/pcb/pcb_lib/symbols/ 
+           E:/Work/Work/AC Station/BACKUP/ 
+           E:/WORK/WORK/AC STATION/BACKUP/Backup AC Single/AC Station board single output ver2/ 
+           E:/Work/Work/AC Station/sankar/AC Station board single output ver2/ 
+           E:/WORK/WORK/AC STATION/AC STATION BOARD FOR CAN COMMUNICATION/DC COMMUNICATION BOARD/ 
+           E:/WORK/WORK/AC STATION/BACKUP/AC STATION BOARD FINAL 8/ 
+           E:/Work/Work/AC Station/AC Station board final 7/allegro/ 
+           E:/STM32FO30CC/STM32F030CC Dev Board/ 
+           E:/STM32FO30CC/STM32F030CC Dev Board/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/ 
+           E:/Work/Work/AC Station/BACKUP/ 
+           E:/Work/Work/AC Station/BACKUP/Backup AC Single/AC Station board single output ver2/ 
+           E:/Work/Work/AC Station/sankar/ 
+           E:/STM32FO30CC/STM32F030CC Dev Board/ 
+           E:/STM32FO30CC/STM32F030CC Dev Board/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on May 28 18:57:05 2021
+   DESIGN NAME : 'AC_BOARD'
+   PACKAGING ON Sep 10 2012 04:46:09
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:31
+elapsed time  0:00:00
+

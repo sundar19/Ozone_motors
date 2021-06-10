@@ -1,0 +1,13 @@
+INFO: Loaded existing interconnect file 'D:\Sankar\AcceleroMeter_con\interconn.iml'
+INFO: Loaded existing interconnect file 'C:\Cadence\SPB_16.6\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_0S_1R_107
+INFO: Executing command: bem2d 0 "C:/Users/MERAS/AppData/Local/Temp/#Taaaaac15200.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_108
+INFO: Executing command: bem2d 0 "C:/Users/MERAS/AppData/Local/Temp/#Taaaaad15200.in" 0.00127
+INFO: Loaded existing device file 'D:\Sankar\AcceleroMeter_con\devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file 'D:\Sankar\AcceleroMeter_con\devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file 'D:\Sankar\AcceleroMeter_con\devices.dml'
+INFO: Finished loading SigNoise device libraries

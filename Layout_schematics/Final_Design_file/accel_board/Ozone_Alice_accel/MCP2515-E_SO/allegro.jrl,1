@@ -1,0 +1,17 @@
+\t (00:00:02) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:02)     Journal start - Sun May 16 14:51:46 2021
+\t (00:00:02)         Host=DESKTOP-S4RBN91 User=MERAS Pid=1084 CPUs=8
+\t (00:00:02) 
+\t (00:00:03) Opening existing design...
+\e (00:00:03) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\e (00:00:03) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\i (00:00:05) fillin confirm
+\t (00:00:05) Starting new design...
+\i (00:00:06) trapsize 815
+\i (00:00:06) trapsize 796
+\i (00:00:06) trapsize 818
+\i (00:00:07) trapsize 686
+\i (00:00:07) trapsize 1403
+\i (00:00:08) generaledit 
+\i (00:00:08) exit 
+\t (00:00:09)     Journal end - Sun May 16 14:51:53 2021

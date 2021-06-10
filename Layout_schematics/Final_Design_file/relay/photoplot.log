@@ -1,0 +1,559 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : Relay.brd                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Jun 03 17:51:02 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (-62.291 -217.654)
+           ... ignored.
+
+    WARNING: Segment with same start and end points at
+	(-5911.358 1056.622) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-6200.087 21.130) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-1180.661 1363.669) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-6406.161 2288.170) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-6355.461 308.670) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-6406.161 2288.170) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-5667.106 2704.323) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-4680.402 120.339) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-4680.402 120.338) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-3116.161 727.169) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-3664.654 305.969) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-3116.161 727.170) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2432.217 2639.220) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2432.217 2639.220) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2218.217 979.220) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2218.216 979.220) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-1504.015 2780.421) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-1184.661 485.776) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-764.961 2454.288) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-764.961 2454.287) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-427.842 2770.535) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-6200.087 21.130) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-6355.461 308.669) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.05504                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.05500                     0.000 NO     DARK 
+  SQUARE     0.05504                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.04291     x 0.10709       0.000 NO     DARK 
+  RECTANGLE  0.04291     x 0.10709      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.07087       0.000 NO     DARK 
+  RECTANGLE  0.08100     x 0.02400       0.000 NO     DARK 
+  RECTANGLE  0.09173     x 0.06102       0.000 NO     DARK 
+  RECTANGLE  0.09173     x 0.06102      90.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.05504                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.05500                     0.000 NO     DARK 
+  SQUARE     0.05504                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.08100     x 0.02400       0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSY_BOT >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/ASSY_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-5232.260 2256.709)
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.05504                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.05500                     0.000 NO     DARK 
+  SQUARE     0.05504                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.08100     x 0.02400       0.000 NO     DARK 
+
+     ASSY_BOT created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSY_TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/ASSY_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.00400                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.05504                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  SQUARE     0.05500                     0.000 NO     DARK 
+  SQUARE     0.05504                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.04291     x 0.10709       0.000 NO     DARK 
+  RECTANGLE  0.04291     x 0.10709      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.07087       0.000 NO     DARK 
+  RECTANGLE  0.08100     x 0.02400       0.000 NO     DARK 
+  RECTANGLE  0.09173     x 0.06102       0.000 NO     DARK 
+  RECTANGLE  0.09173     x 0.06102      90.000 NO     DARK 
+
+     ASSY_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < FAB_DWG >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/FAB_DWG.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+
+     FAB_DWG created.
+
+
+================================================================
+     PROCESSING FILM < PASTE_TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/PASTE_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  RECTANGLE  0.02362     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.04291     x 0.10709       0.000 NO     DARK 
+  RECTANGLE  0.04291     x 0.10709      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.07087       0.000 NO     DARK 
+  RECTANGLE  0.08100     x 0.02400       0.000 NO     DARK 
+  RECTANGLE  0.09173     x 0.06102       0.000 NO     DARK 
+  RECTANGLE  0.09173     x 0.06102      90.000 NO     DARK 
+
+     PASTE_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTE_BOT >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/PASTE_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  RECTANGLE  0.08100     x 0.02400       0.000 NO     DARK 
+
+     PASTE_BOT created.
+
+
+================================================================
+     PROCESSING FILM < SILK_BOT >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/SILK_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+
+     SILK_BOT created.
+
+
+================================================================
+     PROCESSING FILM < SILK_TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/SILK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+
+     SILK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDER_BOT >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/SOLDER_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.05504                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.05500                     0.000 NO     DARK 
+  SQUARE     0.05504                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.08100     x 0.02400       0.000 NO     DARK 
+
+     SOLDER_BOT created.
+
+
+================================================================
+     PROCESSING FILM < SOLDER_TOP >
+     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/SOLDER_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.05504                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.05500                     0.000 NO     DARK 
+  SQUARE     0.05504                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.04291     x 0.10709       0.000 NO     DARK 
+  RECTANGLE  0.04291     x 0.10709      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.07087       0.000 NO     DARK 
+  RECTANGLE  0.08100     x 0.02400       0.000 NO     DARK 
+  RECTANGLE  0.09173     x 0.06102       0.000 NO     DARK 
+  RECTANGLE  0.09173     x 0.06102      90.000 NO     DARK 
+
+     SOLDER_TOP created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created with warnings
+        ASSY_BOT created with warnings
+        ASSY_TOP created with warnings
+        FAB_DWG created.
+        PASTE_TOP created.
+        PASTE_BOT created.
+        SILK_BOT created.
+        SILK_TOP created.
+        SOLDER_BOT created.
+        SOLDER_TOP created.
+
+ ARTWORK finished

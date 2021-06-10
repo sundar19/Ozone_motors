@@ -1,0 +1,260 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001May-16-2021 at 16:06:30 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='ACCELEROMETERO';
+ POST_TIME='Sep 10 2012 04:46:09';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_0603_22PF':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS20627@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins20627@discrete.\cap np.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins20627@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_0603_22PF':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS20643@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins20643@discrete.\cap np.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins20643@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS23042@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins23042@discrete.\cap.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins23042@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS23067@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins23067@discrete.\cap np.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins23067@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS23083@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins23083@discrete.\cap np.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins23083@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS26103@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins26103@discrete.\cap.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins26103@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS26119@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins26119@discrete.\cap np.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins26119@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS26135@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins26135@discrete.\cap np.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins26135@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_1_LEDC1608X65N_LED':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS58950@4G_MODULE.LED_1.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins58950@\4g_module\.\led_1.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins58950@\4g_module\.\led_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON7_3_SAMTEC_DW-07-10-G-S-630_':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS15366@ACCELEROMETERO.CON7_3.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins15366@accelerometero.\con7_3.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins15366@accelerometero.\con7_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'CON5_0_JUMPER5_ACC4':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS27103@ACCELEROMETERO.CON5_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins27103@accelerometero.\con5_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins27103@accelerometero.\con5_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON7_5_SAMTEC_DW-07-10-G-S-630_':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS15392@ACCELEROMETERO.CON7_5.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins15392@accelerometero.\con7_5.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins15392@accelerometero.\con7_5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON5_0_JUMPER5_ACC1':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS16172@ACCELEROMETERO.CON5_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins16172@accelerometero.\con5_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins16172@accelerometero.\con5_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON5_0_JUMPER5_ACC2':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS16823@ACCELEROMETERO.CON5_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins16823@accelerometero.\con5_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins16823@accelerometero.\con5_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON5_0_JUMPER5_ACC3':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS16989@ACCELEROMETERO.CON5_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins16989@accelerometero.\con5_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins16989@accelerometero.\con5_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON5_1_JUMPER5_ACC4':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS17160@ACCELEROMETERO.CON5_1.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins17160@accelerometero.\con5_1.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins17160@accelerometero.\con5_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CON2_0_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS21797@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins21797@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins21797@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'CON2_0_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS21813@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins21813@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins21813@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'CON2_0_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS21829@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins21829@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins21829@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS21502@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins21502@analog.\r.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins21502@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_0603_120R':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS21925@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins21925@analog.\r.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins21925@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_0603_1K':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS23108@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins23108@analog.\r.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins23108@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'MCP2515_0_SOIC127P1030X265-18N_':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS20081@ACCELEROMETERO.MCP2515_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins20081@accelerometero.\mcp2515_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins20081@accelerometero.\mcp2515_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U10 'TPS563200_1_SOP8_TJA1050':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS20216@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.TPS563200_1.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins20216@evse_level2_rev2_25_apr_18_knts1.\tps563200_1.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins20216@evse_level2_rev2_25_apr_18_knts1.\tps563200_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_0_XTAL_ECS-080-20-5PX-T':;
+
+SECTION_NUMBER 1
+ '@ACCELEROMETERO.SCHEMATIC1(SCH_1):INS20253@ACCELEROMETERO.CRYSTAL_0.NORMAL(CHIPS)':
+ C_PATH='@accelerometero.schematic1(sch_1):ins20253@accelerometero.\crystal_0.normal\(chips)',
+ P_PATH='@accelerometero.schematic1(sch_1):page1_ins20253@accelerometero.\crystal_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,15 @@
+\t (00:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:00)     Journal start - Sun May 16 17:39:52 2021
+\t (00:00:00)         Host=DESKTOP-S4RBN91 User=MERAS Pid=2596 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Database opened: D:/Sankar/Ozone_Alice_accel (1)/Ozone_Alice_accel/1985836/PHOENIX_1985836.dra
+\i (00:00:00) trapsize 5680
+\i (00:00:00) trapsize 5801
+\i (00:00:00) trapsize 6146
+\i (00:00:00) trapsize 5811
+\i (00:00:01) trapsize 4876
+\i (00:00:01) trapsize 5811
+\i (00:00:01) generaledit 
+\i (00:00:02) exit 
+\t (00:00:02)     Journal end - Sun May 16 17:39:54 2021

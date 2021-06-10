@@ -1,0 +1,820 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jun-03-2021 at 17:48:50 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='RELAY_BOARD';
+ POST_TIME='Sep 10 2012 04:46:09';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ D10 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66441@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66441@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66441@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D11 'DIODE_17_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66847@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_17.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66847@evse_level2_rev2_25_apr_18_knts1.\diode_17.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66847@evse_level2_rev2_25_apr_18_knts1.\diode_17.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D12 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66621@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66621@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66621@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D13 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66745@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66745@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66745@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D14 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66681@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66681@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66681@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D15 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66541@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66541@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66541@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D16 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS75719@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins75719@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins75719@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D17 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78167@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78167@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78167@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D18 'DIODE_17_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78057@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_17.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78057@evse_level2_rev2_25_apr_18_knts1.\diode_17.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78057@evse_level2_rev2_25_apr_18_knts1.\diode_17.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D19 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77877@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77877@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77877@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D20 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78079@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78079@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78079@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D21 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77557@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77557@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77557@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D22 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78101@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78101@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78101@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D23 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78327@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78327@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78327@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 'DIODE_16_DIOM5226X240N_DIODE':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66765@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.DIODE_16.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66765@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66765@evse_level2_rev2_25_apr_18_knts1.\diode_16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS76089@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins76089@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins76089@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78145@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78145@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78145@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77811@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77811@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77811@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J12 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77609@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77609@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77609@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J13 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78035@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78035@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78035@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J14 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78013@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78013@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78013@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J15 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77969@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77969@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77969@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J16 'CON20_3_TE_2-87224-0_CON20':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS3804@RELAY_BOARD.CON20_3.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins3804@relay_board.\con20_3.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins3804@relay_board.\con20_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J17 'CON20_2_TE_2-87224-0_CON20':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS3856@RELAY_BOARD.CON20_2.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins3856@relay_board.\con20_2.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins3856@relay_board.\con20_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J18 'CON2_0_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS63117@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins63117@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins63117@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J19 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS63097@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins63097@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins63097@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS76147@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins76147@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins76147@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J20 'CON6_0_TE_4-103327-6_UART':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS80443@RELAY_BOARD.CON6_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins80443@relay_board.\con6_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins80443@relay_board.\con6_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J21 'CON4_0_TE_1546215-4_POWER':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS93624@RELAY_BOARD.CON4_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins93624@relay_board.\con4_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins93624@relay_board.\con4_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS76207@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins76207@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins76207@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS76269@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins76269@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins76269@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS76333@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins76333@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins76333@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS76399@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins76399@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins76399@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS76467@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins76467@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins76467@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS75928@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins75928@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins75928@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'CON2_0_1725656_CON2':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77833@ACCELEROMETERO.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77833@accelerometero.\con2_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77833@accelerometero.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_4_RESC3216X65_0 OHM':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66701@EVSE_LEVEL2_SCH_09_FEB_18_MP1.RESISTOR_4.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66701@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66701@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66481@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66481@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66481@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RESISTOR_4_RESC3216X65_0 OHM':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77787@EVSE_LEVEL2_SCH_09_FEB_18_MP1.RESISTOR_4.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77787@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77787@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77713@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77713@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77713@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77691@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77691@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77691@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'RESISTOR_4_RESC3216X65_0 OHM':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77923@EVSE_LEVEL2_SCH_09_FEB_18_MP1.RESISTOR_4.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77923@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77923@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77947@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77947@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77947@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'RESISTOR_4_RESC3216X65_0 OHM':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77899@EVSE_LEVEL2_SCH_09_FEB_18_MP1.RESISTOR_4.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77899@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77899@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77855@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77855@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77855@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78123@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78123@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78123@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77991@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77991@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77991@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66581@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66581@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66581@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77765@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77765@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77765@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'R_0603_0R':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS65458@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins65458@analog.\r.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins65458@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'R_0603_0R':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS63329@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins63329@analog.\r.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins63329@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'R_0603_0R':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS62731@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins62731@analog.\r.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins62731@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'R_0603_0R':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS80660@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins80660@analog.\r.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins80660@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_0603_120R':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS63153@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins63153@analog.\r.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins63153@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS75703@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins75703@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins75703@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66887@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66887@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66887@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RESISTOR_4_RESC3216X65_0 OHM':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66723@EVSE_LEVEL2_SCH_09_FEB_18_MP1.RESISTOR_4.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66723@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66723@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66521@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66521@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66521@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RESISTOR_4_RESC3216X65_0 OHM':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66825@EVSE_LEVEL2_SCH_09_FEB_18_MP1.RESISTOR_4.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66825@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66825@evse_level2_sch_09_feb_18_mp1.\resistor_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66501@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66501@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66501@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66661@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66661@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66661@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RESISTOR_6_RESC3225X60N_120K':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66641@EVSE_LEVEL2_SCH_PROTO-A_040418.RESISTOR_6.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66641@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66641@\evse_level2_sch_proto-a_040418\.\resistor_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL1 'RELAY SPST_0_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS67733@RELAY_BOARD.RELAY SPST_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins67733@relay_board.\relay spst_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins67733@relay_board.\relay spst_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL10 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77735@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77735@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77735@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL11 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77631@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77631@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77631@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL12 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77579@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77579@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77579@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL13 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78349@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78349@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78349@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL15 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78297@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78297@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78297@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL16 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS75735@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins75735@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins75735@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL2 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS67950@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins67950@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins67950@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL3 'RELAY SPST_2_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS68175@RELAY_BOARD.RELAY SPST_2.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins68175@relay_board.\relay spst_2.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins68175@relay_board.\relay spst_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL4 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS68276@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins68276@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins68276@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL5 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS68377@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins68377@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins68377@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL6 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS68478@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins68478@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins68478@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL7 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS68579@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins68579@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins68579@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL8 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS77661@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins77661@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins77661@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RL9 'RELAY SPST_1_JSM1A-12V-4_RELAY':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78189@RELAY_BOARD.RELAY SPST_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78189@relay_board.\relay spst_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78189@relay_board.\relay spst_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'ULN2003A_1_SOIC127P600X175-16N_':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS66345@EVSE_LEVEL2_SCH.ULN2003A_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins66345@evse_level2_sch.\uln2003a_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins66345@evse_level2_sch.\uln2003a_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'ULN2003A_1_SOIC127P600X175-16N_':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS78219@EVSE_LEVEL2_SCH.ULN2003A_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins78219@evse_level2_sch.\uln2003a_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page7_ins78219@evse_level2_sch.\uln2003a_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'TPS563200_1_SOP8_TJA1050':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS63013@EVSE_LEVEL2_REV2_25_APR_18_KNTS1.TPS563200_1.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins63013@evse_level2_rev2_25_apr_18_knts1.\tps563200_1.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins63013@evse_level2_rev2_25_apr_18_knts1.\tps563200_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'ULN2003A_0_SOIC127P600X175-16N_':;
+
+SECTION_NUMBER 1
+ '@RELAY_BOARD.SCHEMATIC1(SCH_1):INS74798@RELAY_BOARD.ULN2003A_0.NORMAL(CHIPS)':
+ C_PATH='@relay_board.schematic1(sch_1):ins74798@relay_board.\uln2003a_0.normal\(chips)',
+ P_PATH='@relay_board.schematic1(sch_1):page1_ins74798@relay_board.\uln2003a_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
