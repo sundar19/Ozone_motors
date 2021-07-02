@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Relay.brd                                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Mon Jun 21 11:32:24 2021                      )
+(    Date/Time        : Tue Jun 29 11:59:57 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -28,7 +28,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/TOP.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -46,7 +46,11 @@ Results from parameter file ...
            ... ignored.
 
     WARNING: Segment with same start and end points at
-	(-3203.717 132.240) will be ignored. Increasing output
+	(-3284.617 157.242) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-3274.265 132.236) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -58,7 +62,7 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(-1151.598 1618.531) will be ignored. Increasing output
+	(-1023.564 1598.530) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -70,7 +74,7 @@ Results from parameter file ...
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(-2218.216 979.220) will be ignored. Increasing output
+	(-2218.217 979.220) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -83,10 +87,6 @@ Results from parameter file ...
 
     WARNING: Segment with same start and end points at
 	(-764.961 2454.288) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(-764.961 2454.287) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -127,7 +127,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/BOTTOM.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -170,7 +170,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < ASSY_BOT >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/ASSY_BOT.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/ASSY_BOT.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -212,7 +212,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < ASSY_TOP >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/ASSY_TOP.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/ASSY_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -265,7 +265,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < FAB_DWG >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/FAB_DWG.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/FAB_DWG.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -292,7 +292,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < PASTE_TOP >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/PASTE_TOP.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/PASTE_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -328,7 +328,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < PASTE_BOT >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/PASTE_BOT.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/PASTE_BOT.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -356,7 +356,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILK_BOT >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/SILK_BOT.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/SILK_BOT.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -385,7 +385,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILK_TOP >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/SILK_TOP.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/SILK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -417,7 +417,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SOLDER_BOT >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/SOLDER_BOT.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/SOLDER_BOT.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -454,7 +454,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SOLDER_TOP >
-     TO FILE < D:/Sankar/Personal/Final_Design_file/relay/SOLDER_TOP.art > ...
+     TO FILE < D:/Sankar/Personal/Backup/relay/SOLDER_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
