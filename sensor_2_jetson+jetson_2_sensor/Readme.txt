@@ -1,4 +1,4 @@
-For circuit refer connections folder
+For circuit refer connections (accel.pdf , sensor.pdf ,relay.pdf) folder
 
 
 Run the following programs
