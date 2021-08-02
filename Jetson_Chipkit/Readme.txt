@@ -4,7 +4,7 @@ To download mpide go to link http://www.chipkit.org/wiki/index.php?title=MPIDE a
 Note : The CDM v2.12.28 WHQL Certified file consists of driver files for Chipkit Max32 . 
 Go to link https://www.ftdichip.com/Drivers/D2XX.htm to download the drivers (Windows Version 2.12.28) 
 For driver installation procedures visit https://www.usb-drivers.org/ft232r-usb-uart-driver.html 
-
+For static IP go to this link https://forums.developer.nvidia.com/t/how-to-set-tx1-to-use-static-ip-on-ethernet-port/47383/4
 
 Assign the Linux computer (Jetson or laptop) as client and chipkit as server
 
@@ -24,6 +24,8 @@ source-directory /etc/network/interfaces.d
 
 # This line is a custom edit.
 source interfaces.d/eth0
+
+
 Then inside of “/etc/network/interfaces.d/” add file “eth0”. Content something like this (I’m assuming your router is the gateway and that the gateway has address “192.168.1.2”…note that the address you gave of “192.168.150” is missing a digit, I’m assuming it is “192.168.1.150”):
 
 auto eth0
@@ -31,6 +33,26 @@ iface eth0 inet static
 address 10.0.0.10
 
 If that file is read the content says to automatically bring the interface up using static protocols, so it may be this is enough to stop DHCP (it depends on other software and there is a mix of NetworkManager and older style files that don’t always play together nicely).
+
+Ok in simple words:
+
+#type this in terminal
+gedit /etc/network/interfaces/
+
+#add these inside that file 
+source-directory /etc/network/interfaces.d
+source interfaces.d/eth0
+
+#come out and again type
+gedit /etc/network/interfaces.d/
+
+#add these inside that file
+auto eth0
+iface eth0 inet static
+address 10.0.0.10
+
+#now restart 
+sudo reboot
 
 Also in chipkit comment out timeout portions of the code (TCPEchoServer_oncall)
 
