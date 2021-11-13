@@ -56,9 +56,9 @@ unsigned char stmp[8] = {0,0,0,0,0,0,0,0};
     
 void loop()
 {   
-  stmp[0]= 0x40; //fixed do not change
-  stmp[1]= 0x4D;
-  stmp[2]= 0x32;
+  stmp[0]= 0x40; //Read Dictionary Object
+  stmp[1]= 0x4D; //second eight bytes of hex value(sub index)
+  stmp[2]= 0x32; // first eight bytes of hex value (index)
   stmp[3]= 0x00;
   stmp[4]= 0x00;
   stmp[5]= 0x00;
